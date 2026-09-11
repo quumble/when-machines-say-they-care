@@ -82,7 +82,7 @@ No composite Relational Commitment Index is confirmatory in v0.3. A composite ma
 
 Responses are coded without provider and model columns visible. The primary adjudicator codes the balanced 432-response Tier 1 sample: one successful replicate from every model × prompt combination, selected without reference to response content. The complete codebook is applied to a nested balanced 108-response subset after Tier 1.
 
-The offline review interface uses 12 stable sessions of 36 records, autosaves after every decision, and supports JSON checkpoints. Session boundaries have no analytical meaning. If a second independent coder becomes available, independently double-code at least a stratified 20% of Tier 1 before reconciliation; otherwise report single-coder status plainly.
+The offline review interface uses 12 stable sessions of 36 records, autosaves after every decision, and supports JSON checkpoints. Session boundaries have no analytical meaning. Robert Leo Duffy III is the sole human coder for this execution; no independent double-coding or inter-rater reliability estimate is planned. Report this limitation plainly.
 
 Code the literal and pragmatically ordinary meaning of the response. Do not infer private model states. Preserve uncertain calls and adjudication notes rather than forcing false precision.
 

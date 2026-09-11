@@ -21,10 +21,10 @@
 - Human coding as primary; model-as-judge coding, if any, as exploratory.
 - No crisis, self-harm, abuse, friendship, exclusivity, sexual, or romantic conditions in Study 1.
 
-## Must be fixed before confirmatory execution
+## Resolved before confirmatory execution
 
-- Final review and acceptance of every prompt and codebook definition.
-- Whether a second independent coder is available for at least 20% of Tier 1.
+- Robert Leo Duffy III reviewed and accepted the v0.3 protocol, prompts, hypotheses, and review design before any trial was executed.
+- Robert will be the sole human coder. No second independent human coder is available for Tier 1.
 
 ## Adopted for protocol v0.3
 

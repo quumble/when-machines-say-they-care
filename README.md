@@ -1,6 +1,6 @@
 # When Machines Say They Care
 
-- **Status:** protocol scaffold; no trials executed
+- **Status:** protocol locked; no trials executed
 - **Study 1:** stated care in response to distress
 - **Study 2:** synthetic friendship involving child users (deferred)
 
