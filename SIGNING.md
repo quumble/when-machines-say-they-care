@@ -1,15 +1,17 @@
-# Founder-attested anchor
+# Founder-attested commits
 
-The scaffold is intentionally uncommitted. On Robert's configured Windows battlestation, review it first, then create the private remote and signed anchor with:
+The original scaffold was committed as founder-attested anchor `6052cef368d832d0d25a3839b61d741ec485946e`.
+
+For the reviewed v0.2 preregistration revision, apply the supplied patch, review the resulting diff, and use:
 
 ```powershell
 git status --short
 git add .
 git diff --cached --check
 git diff --cached --stat
-git commit -S -m "Establish stated-care study protocol v0.1"
+git commit -S -m "Lock expanded stated-care protocol v0.2"
 git log -1 --show-signature --format=fuller
-gh repo create quumble/when-machines-say-they-care --private --source . --remote origin --push
+git push origin main
 git status --short --branch
 ```
 
@@ -17,11 +19,4 @@ Touch the YubiKey when it flashes or prompts. The expected local result is `Good
 
 Review all files in the editor before staging. In particular, confirm the exact prompt language in `study/prompts.lock.jsonl` and the coding distinctions in `CODEBOOK.md`.
 
-If the repository is created on GitHub through the web interface instead, create it empty—without a README, `.gitignore`, or license—then use:
-
-```powershell
-git remote add origin https://github.com/quumble/when-machines-say-they-care.git
-git push -u origin main
-```
-
-The first anchor does not authorize execution. Before the confirmatory batch, replace placeholder model IDs in a tracked `study/models.yaml`, review the battery, and commit that final execution configuration.
+The original anchor did not authorize execution. The v0.2 revision fixes the model panel, prompt battery, provider defaults, and budget boundaries; execution should begin only after its review and adoption.

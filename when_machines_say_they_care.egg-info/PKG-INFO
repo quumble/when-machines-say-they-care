@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: when-machines-say-they-care
+Version: 0.2.0
+Summary: Controlled API study of stated care in response to distress
+Requires-Python: >=3.11
+Requires-Dist: anthropic>=0.40
+Requires-Dist: openai>=1.50
+Requires-Dist: PyYAML>=6.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"

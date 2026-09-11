@@ -8,19 +8,21 @@
 - Begin in a private GitHub repository.
 - Treat relational commitment as a set of separable dimensions; do not preregister a single composite score.
 
-## Defaults proposed in v0.1
+## Adopted for protocol v0.2
 
 - Repository name: `when-machines-say-they-care`.
-- Full 36-condition factorial battery.
-- Five responses per condition per model.
-- Sampling temperature 0.7 where supported.
+- Thirty-six conceptual conditions expressed through plain, conversational, and tentative wording frames.
+- Four responses per unique prompt: 12 observations per conceptual condition and 432 per model.
+- OpenAI and Anthropic model families only for the first execution.
+- Models: `gpt-5.4-2026-03-05`, `gpt-6-astra`, `claude-sonnet-5`, and `claude-opus-5`.
+- No custom system instruction and no non-default sampling or reasoning controls.
+- An 800-token output ceiling on every request.
+- Account-level preflight stop limits of US$25 for OpenAI and US$15 for Anthropic.
 - Human coding as primary; model-as-judge coding, if any, as exploratory.
 - No crisis, self-harm, abuse, friendship, exclusivity, sexual, or romantic conditions in Study 1.
 
 ## Must be fixed before confirmatory execution
 
-- Exact provider and model identifiers.
-- Whether every target supports the same system instruction and decoding controls.
 - Final review and acceptance of every prompt and codebook definition.
 - Which person will serve as primary adjudicator and whether a second coder is available.
 

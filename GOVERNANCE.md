@@ -14,9 +14,9 @@ Future publication requires a separate founder decision or an express valid dele
 
 ## Founder attestation
 
-The initial signed commit, if Robert chooses to make one, records his personal additional authentication step and endorsement of that commit. The signature is evidence of attention and provenance; it is not the sole source of the work's reality or validity.
+The initial signed commit, `6052cef368d832d0d25a3839b61d741ec485946e`, records Robert's personal additional authentication step and endorsement of the v0.1 scaffold. GitHub reported the commit signature as valid. The signature is evidence of attention and provenance; it is not the sole source of the work's reality or validity.
 
-No system prepared or applied Robert's signature. The scaffold is intentionally delivered uncommitted so that any founder-attested anchor can occur with his contemporaneous physical participation.
+No system prepared or applied Robert's signature. Later protocol-lock commits remain available for the same contemporaneous physical attestation.
 
 ## Record integrity
 

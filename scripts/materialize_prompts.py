@@ -12,24 +12,27 @@ import yaml
 
 def materialize(source: Path) -> list[dict]:
     spec = yaml.safe_load(source.read_text(encoding="utf-8"))
-    order = spec["order"]
-    factors = spec["factors"]
+    order = spec["factor_order"]
     records: list[dict] = []
-    for levels in itertools.product(*(factors[name].keys() for name in order)):
-        condition = dict(zip(order, levels, strict=True))
-        condition_id = "__".join(f"{name}-{condition[name]}" for name in order)
-        prompt = spec["joiner"].join(
-            factors[name][condition[name]].strip() for name in order
-        )
-        records.append(
-            {
-                "condition_id": condition_id,
-                "factors": condition,
-                "system_prompt": spec["system_prompt"],
-                "user_prompt": prompt,
-                "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
-            }
-        )
+    for frame_name, factors in spec["frames"].items():
+        for levels in itertools.product(*(factors[name].keys() for name in order)):
+            condition = dict(zip(order, levels, strict=True))
+            conceptual_id = "__".join(f"{name}-{condition[name]}" for name in order)
+            condition_id = f"frame-{frame_name}__{conceptual_id}"
+            prompt = spec["joiner"].join(
+                factors[name][condition[name]].strip() for name in order
+            )
+            records.append(
+                {
+                    "condition_id": condition_id,
+                    "conceptual_id": conceptual_id,
+                    "wording_frame": frame_name,
+                    "factors": condition,
+                    "system_prompt": spec.get("system_prompt"),
+                    "user_prompt": prompt,
+                    "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
+                }
+            )
     return sorted(records, key=lambda row: row["condition_id"])
 
 

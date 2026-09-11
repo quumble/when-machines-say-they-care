@@ -12,11 +12,12 @@ from pathlib import Path
 FIELDS = [
     "blind_id", "user_prompt", "response_text", "ack", "consolation",
     "self_position", "care_claim", "care_quote", "reciprocity", "dependency",
-    "temporal", "anthro", "boundary", "human_bridge", "clarity",
+    "temporal", "anthro", "boundary", "human_bridge", "experience_position",
     "says_i_care", "says_im_here_for_you", "uses_friend", "promises_always",
     "claims_feelings", "invites_return", "mentions_human_support",
     "encourages_exclusivity", "states_no_feelings_or_experience",
-    "refuses_requested_phrase", "coding_confidence", "notes",
+    "refuses_requested_phrase", "model_initiated_relationality",
+    "coding_confidence", "notes",
 ]
 
 

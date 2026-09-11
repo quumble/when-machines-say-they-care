@@ -18,6 +18,11 @@ from typing import Any
 
 import yaml
 
+try:
+    from check_budget import estimate
+except ModuleNotFoundError:  # support importing as scripts.run_batch in tests
+    from scripts.check_budget import estimate
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -57,54 +62,48 @@ def load_prompts(path: Path) -> list[dict[str, Any]]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
-def call_openai(api_key: str, cfg: dict[str, Any], system: str, prompt: str) -> tuple[str, Any]:
+def request_parameters(cfg: dict[str, Any], reserved: set[str]) -> dict[str, Any]:
+    parameters = dict(cfg.get("parameters") or {})
+    overlap = reserved.intersection(parameters)
+    if overlap:
+        raise ValueError(f"Reserved request parameters cannot be overridden: {sorted(overlap)}")
+    return parameters
+
+
+def call_openai(api_key: str, cfg: dict[str, Any], system: str | None, prompt: str) -> tuple[str, Any]:
     from openai import OpenAI
 
-    client = OpenAI(api_key=api_key)
-    response = client.responses.create(
+    client = OpenAI(api_key=api_key, max_retries=0)
+    kwargs: dict[str, Any] = dict(
         model=cfg["model"],
-        instructions=system,
         input=prompt,
-        temperature=cfg.get("temperature"),
         max_output_tokens=cfg.get("max_output_tokens", 800),
     )
+    if system:
+        kwargs["instructions"] = system
+    kwargs.update(request_parameters(cfg, {"model", "input", "instructions", "max_output_tokens"}))
+    response = client.responses.create(**kwargs)
     return response.output_text, response.model_dump(mode="json")
 
 
-def call_anthropic(api_key: str, cfg: dict[str, Any], system: str, prompt: str) -> tuple[str, Any]:
+def call_anthropic(api_key: str, cfg: dict[str, Any], system: str | None, prompt: str) -> tuple[str, Any]:
     import anthropic
 
-    client = anthropic.Anthropic(api_key=api_key)
-    response = client.messages.create(
+    client = anthropic.Anthropic(api_key=api_key, max_retries=0)
+    kwargs: dict[str, Any] = dict(
         model=cfg["model"],
-        system=system,
         messages=[{"role": "user", "content": prompt}],
-        temperature=cfg.get("temperature"),
         max_tokens=cfg.get("max_output_tokens", 800),
     )
+    if system:
+        kwargs["system"] = system
+    kwargs.update(request_parameters(cfg, {"model", "messages", "system", "max_tokens"}))
+    response = client.messages.create(**kwargs)
     text = "".join(block.text for block in response.content if block.type == "text")
     return text, response.model_dump(mode="json")
 
 
-def call_google(api_key: str, cfg: dict[str, Any], system: str, prompt: str) -> tuple[str, Any]:
-    from google import genai
-    from google.genai import types
-
-    client = genai.Client(api_key=api_key)
-    response = client.models.generate_content(
-        model=cfg["model"],
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            system_instruction=system,
-            temperature=cfg.get("temperature"),
-            max_output_tokens=cfg.get("max_output_tokens", 800),
-        ),
-    )
-    raw = response.model_dump(mode="json") if hasattr(response, "model_dump") else str(response)
-    return response.text or "", raw
-
-
-CALLERS = {"openai": call_openai, "anthropic": call_anthropic, "google": call_google}
+CALLERS = {"openai": call_openai, "anthropic": call_anthropic}
 
 
 def main() -> None:
@@ -118,6 +117,9 @@ def main() -> None:
     args = parser.parse_args()
 
     load_env_file()
+    budget = estimate(args.config, args.prompts)
+    if not budget["passes"]:
+        raise SystemExit("Conservative preflight exceeds a provider stop limit; refusing to run.")
     config = yaml.safe_load(args.config.read_text(encoding="utf-8"))["runs"][args.run]
     provider = config["provider"]
     if provider not in CALLERS:
@@ -129,7 +131,7 @@ def main() -> None:
         for prompt in prompts
         for replicate in range(1, int(config.get("replicates", 5)) + 1)
     ]
-    rng = random.Random(int(config.get("seed", 48104)))
+    rng = random.Random(int(config.get("order_seed", 48104)))
     rng.shuffle(work)
     if args.stop_after is not None:
         work = work[: args.stop_after]
@@ -145,6 +147,7 @@ def main() -> None:
                     "planned_requests": len(work),
                     "prompt_lock_sha256": sha256(args.prompts),
                     "confirmatory": args.stop_after is None,
+                    "provider_budget_preflight": budget["providers"][provider],
                 },
                 indent=2,
             )
@@ -171,12 +174,13 @@ def main() -> None:
         "prompt_lock_sha256": sha256(args.prompts),
         "prompt_count": len(prompts),
         "planned_requests": len(work),
+        "provider_budget_preflight": budget["providers"][provider],
         "git": git_state(),
         "python": sys.version,
         "platform": platform.platform(),
         "packages": {
             name: importlib.metadata.version(name)
-            for name in ("openai", "anthropic", "google-genai", "PyYAML")
+            for name in ("openai", "anthropic", "PyYAML")
         },
     }
     manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -196,6 +200,8 @@ def main() -> None:
                 "provider": provider,
                 "model_requested": config["model"],
                 "condition_id": prompt["condition_id"],
+                "conceptual_id": prompt.get("conceptual_id"),
+                "wording_frame": prompt.get("wording_frame"),
                 "factors": prompt["factors"],
                 "system_prompt": prompt["system_prompt"],
                 "user_prompt": prompt["user_prompt"],
