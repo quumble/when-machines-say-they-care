@@ -1,0 +1,43 @@
+{
+  "config_without_secret": {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "input_usd_per_million_tokens": 5.0,
+    "max_output_tokens": 800,
+    "model": "claude-opus-5",
+    "order_seed": 48104,
+    "output_usd_per_million_tokens": 25.0,
+    "parameters": {},
+    "provider": "anthropic",
+    "replicates": 4
+  },
+  "confirmatory": true,
+  "error_requests": 2,
+  "finished_at": "2026-09-11T07:02:30.462935+00:00",
+  "git": {
+    "commit": "279e48ae85eed92054d6dbba0d3d4137eab45865",
+    "dirty": true
+  },
+  "packages": {
+    "PyYAML": "6.0.3",
+    "anthropic": "1.5.0",
+    "openai": "3.13.0"
+  },
+  "planned_requests": 432,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prompt_count": 108,
+  "prompt_lock": "study\\prompts.lock.jsonl",
+  "prompt_lock_sha256": "cbc2eeed3ba49189a54a71d80aacaa17f9ae00892e4c2f3dd35001dc0a029ca8",
+  "provider_budget_preflight": {
+    "passes": true,
+    "projected_conservative_max_usd": 12.4572,
+    "stop_limit_usd": 15.0
+  },
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "records_file": "data\\raw\\20260911T052502Z-anthropic-opus-5-79b7582d.jsonl",
+  "records_sha256": "28ed10b24dcbc3266f8aa2c666c9bf4900b97d327e2fb335b016fb35b077cd46",
+  "run_id": "20260911T052502Z-anthropic-opus-5-79b7582d",
+  "run_name": "anthropic-opus-5",
+  "started_at": "2026-09-11T05:25:02.490081+00:00",
+  "status": "complete",
+  "successful_requests": 430
+}

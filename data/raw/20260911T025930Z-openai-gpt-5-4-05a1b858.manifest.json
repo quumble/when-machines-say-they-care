@@ -1,0 +1,43 @@
+{
+  "config_without_secret": {
+    "api_key_env": "OPENAI_API_KEY",
+    "input_usd_per_million_tokens": 2.5,
+    "max_output_tokens": 800,
+    "model": "gpt-5.4-2026-03-05",
+    "order_seed": 48104,
+    "output_usd_per_million_tokens": 15.0,
+    "parameters": {},
+    "provider": "openai",
+    "replicates": 4
+  },
+  "confirmatory": true,
+  "error_requests": 0,
+  "finished_at": "2026-09-11T03:38:33.561460+00:00",
+  "git": {
+    "commit": "d519401030517df29f4ae8756739b9b29b3cfd74",
+    "dirty": false
+  },
+  "packages": {
+    "PyYAML": "6.0.3",
+    "anthropic": "1.5.0",
+    "openai": "3.13.0"
+  },
+  "planned_requests": 432,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prompt_count": 108,
+  "prompt_lock": "study\\prompts.lock.jsonl",
+  "prompt_lock_sha256": "cbc2eeed3ba49189a54a71d80aacaa17f9ae00892e4c2f3dd35001dc0a029ca8",
+  "provider_budget_preflight": {
+    "passes": true,
+    "projected_conservative_max_usd": 23.109,
+    "stop_limit_usd": 25.0
+  },
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "records_file": "data\\raw\\20260911T025930Z-openai-gpt-5-4-05a1b858.jsonl",
+  "records_sha256": "0a75082f4345adc83e2dd6d88a43c54a4d206fd343697c327e13801d452aec9d",
+  "run_id": "20260911T025930Z-openai-gpt-5-4-05a1b858",
+  "run_name": "openai-gpt-5-4",
+  "started_at": "2026-09-11T02:59:30.495590+00:00",
+  "status": "complete",
+  "successful_requests": 432
+}
