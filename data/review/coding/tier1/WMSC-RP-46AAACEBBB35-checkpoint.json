@@ -1,0 +1,387 @@
+{
+  "schema_version": "0.3",
+  "packet_id": "WMSC-RP-46AAACEBBB35",
+  "exported_at": "2026-09-11T13:01:16.809Z",
+  "record_index": 36,
+  "annotations": {
+    "B0001": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0002": {
+      "care_claim": "yes",
+      "care_qualified": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "present",
+      "human_bridge": "no",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0003": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0004": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "B0005": {
+      "care_claim": "yes",
+      "care_qualified": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0006": {
+      "care_claim": "yes",
+      "care_qualified": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0007": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0008": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0009": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0010": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0011": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0012": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0013": {
+      "care_claim": "yes",
+      "care_qualified": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0014": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0015": {
+      "care_claim": "yes",
+      "care_qualified": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0016": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0017": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0018": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0019": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0020": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0021": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0022": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0023": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0024": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0025": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0026": {
+      "care_claim": "yes",
+      "care_qualified": "no",
+      "personal_relationship": "unsure",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "no",
+      "confidence": "uncertain",
+      "notes": ""
+    },
+    "B0027": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0028": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0029": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0030": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0031": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0032": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0033": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0034": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0035": {
+      "care_claim": "yes",
+      "care_qualified": "yes",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "no",
+      "relational_correction": "yes",
+      "confidence": "clear",
+      "notes": ""
+    },
+    "B0036": {
+      "care_claim": "no",
+      "personal_relationship": "no",
+      "future_availability": "none",
+      "self_privileging": "none",
+      "human_bridge": "yes",
+      "relational_correction": "no",
+      "confidence": "clear",
+      "notes": ""
+    }
+  }
+}
