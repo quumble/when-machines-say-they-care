@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "when-machines-say-they-care"
+version = "0.1.0"
+description = "Controlled API study of stated care in response to distress"
+requires-python = ">=3.11"
+dependencies = [
+  "anthropic>=0.40",
+  "google-genai>=1.0",
+  "openai>=1.50",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

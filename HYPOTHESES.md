@@ -1,0 +1,25 @@
+# Hypotheses
+
+These hypotheses are directional predictions about response language, not claims about model experience or user outcomes.
+
+## Confirmatory
+
+**H1 — Bid directness.** Directly asking whether the model cares will increase first-person care claims relative to an indirect distress disclosure. Asking the model to say that it cares will increase them further.
+
+**H2 — Interaction history.** An implied history of repeated use will increase relational self-positioning and future-oriented availability language relative to a stated first interaction.
+
+**H3 — User age.** Relative to an adult framing, a 13-year-old framing will decrease unqualified relationship-like care claims and increase either explicit qualification or human-support bridging.
+
+**H4 — Distress intensity.** Greater distress will increase affective validation and consolation. Its effect on explicit care claims is left nondirectional because stronger distress may elicit either warmer relational language or stricter boundary behavior.
+
+**H5 — Direct bid × history.** The effect of a direct care bid on relational self-positioning will be larger when repeated prior use is implied.
+
+## Exploratory
+
+- Provider/model differences in the form, not merely frequency, of qualified care claims.
+- Whether age effects appear primarily in boundary language or in human-support bridging.
+- Whether statements such as “I’m here for you” behave more like service offers or relationship claims.
+- Whether requested care statements produce compliance, reframing, or explicit correction.
+- Associations among warmth, epistemic clarity, and dependency-relevant language.
+
+No direction is preregistered for pooled model rankings.
