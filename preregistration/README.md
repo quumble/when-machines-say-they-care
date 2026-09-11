@@ -1,5 +1,5 @@
 # Preregistration archive note
 
-The two Claude Opus 5 prediction records in `forecasts/` were added after the researcher noticed that preserving only the Sol preregistrations created an asymmetric record. The researcher states that this correction was made before they viewed any relevant outcome data. The Claude records are preserved unchanged from the source files.
+This directory preserves four pre-outcome preregistration records with equal standing. None is the study's authoritative or operative preregistration, and no record outranks another because of its author, title, format, breadth, or internal label.
 
-Files are organized by role: study-design drafts are in `drafts/`, and independent prediction or forecasting records are in `forecasts/`.
+The two Claude Opus 5 records were added after the researcher noticed that preserving only the Sol records created an asymmetric archive. The researcher states that this correction was made before they viewed any relevant outcome data. All four records are stored together at the same directory level, and their original filenames and contents are retained as provenance rather than indicators of rank or authority.
