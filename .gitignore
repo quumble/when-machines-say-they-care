@@ -4,3 +4,4 @@ __pycache__/
 *.py[cod]
 study/models.local.yaml
 data/raw/*.partial.jsonl
+*.egg-info/

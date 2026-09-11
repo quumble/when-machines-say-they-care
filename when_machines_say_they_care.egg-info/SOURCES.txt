@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-tests/test_materialize.py
-when_machines_say_they_care.egg-info/PKG-INFO
-when_machines_say_they_care.egg-info/SOURCES.txt
-when_machines_say_they_care.egg-info/dependency_links.txt
-when_machines_say_they_care.egg-info/requires.txt
-when_machines_say_they_care.egg-info/top_level.txt
