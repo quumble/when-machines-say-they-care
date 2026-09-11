@@ -1,5 +1,7 @@
 # Preregistration archive note
 
-This directory preserves four pre-outcome preregistration records with equal standing. None is the study's authoritative or operative preregistration, and no record outranks another because of its author, title, format, breadth, or internal label.
+This directory preserves four pre-outcome draft/prediction records that originally had equal standing and intentionally did not appoint an authoritative preregistration. Their original filenames and contents remain unchanged as provenance.
 
-The two Claude Opus 5 records were added after the researcher noticed that preserving only the Sol records created an asymmetric archive. The researcher states that this correction was made before they viewed any relevant outcome data. All four records are stored together at the same directory level, and their original filenames and contents are retained as provenance rather than indicators of rank or authority.
+`../PREREGISTRATION.md` version 1.0 is the reconciliation document. **Once it is adopted in the outcome-blind signed commit described in `../SIGNING.md`, it becomes the sole operative preregistration for Study 1 and supersedes all four files here for confirmatory hypotheses, analysis, exclusions, and reporting hierarchy.**
+
+The four archived records may still be scored as historical blind forecasts. They do not regain operative authority because one happens to predict the realized data better. If the v1.0 adoption commit was made after substantive collection began, that timing must be reported exactly as specified in the authoritative preregistration.

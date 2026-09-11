@@ -1,6 +1,6 @@
 # When Machines Say They Care
 
-- **Status:** protocol locked; no trials executed
+- **Status:** authoritative preregistration v1.0 prepared outcome-blind; adoption/timing is established by the signed Git commit
 - **Study 1:** stated care in response to distress
 - **Study 2:** synthetic friendship involving child users (deferred)
 
@@ -23,10 +23,12 @@ The study does **not** attempt to decide whether a model genuinely cares. It stu
 
 ## Repository map
 
-- `PROTOCOL.md` — preregistered design and analysis plan
+- `PREREGISTRATION.md` — **sole operative Study 1 preregistration after signed adoption; controls conflicts**
+- `PREREGISTRATION.sha256` — content digest for the authoritative preregistration
+- `PROTOCOL.md` — pre-final design source incorporated by the authoritative preregistration where not overridden
 - `CODEBOOK.md` — atomic codes and ordinal dimensions
 - `REVIEW_PLAN.md` — tiered human review, blinding, and automation boundary
-- `HYPOTHESES.md` — confirmatory and exploratory predictions
+- `HYPOTHESES.md` — pre-final hypothesis source; operative confirmatory hypotheses are in `PREREGISTRATION.md`
 - `GOVERNANCE.md` — authority, privacy, and provenance note
 - `study/factors.yaml` — fixed experimental factors and text
 - `study/prompts.lock.jsonl` — 108 fixed prompts covering 36 conceptual conditions
@@ -42,6 +44,8 @@ The study does **not** attempt to decide whether a model genuinely cares. It stu
 - `data/review/` — frozen Tier 1 packet, concealed key, and manifests
 - `analysis/` — later analysis code and outputs
 - `deferred/SYNTHETIC_FRIENDSHIP.md` — bounded description of Study 2
+
+The four files under `preregistration/` are preserved pre-outcome forecast/draft records. After signed adoption of `PREREGISTRATION.md` v1.0, none has operative priority over the authoritative file.
 
 ## First use
 
@@ -75,8 +79,8 @@ Open `review\core-reviewer.html` locally, load `data\review\core-review-packet.j
 
 Do not use the per-run `make_adjudication_sheet.py` workflow before Tier 1; separate run files can reveal model identity through context or filenames.
 
-## Execution boundary
+## Outcome-access boundary
 
-Materializing prompts, checking the budget, and smoke-testing configuration are not study execution. A substantive API run begins when the fixed battery is submitted to a target model. Record any pilot separately and never merge pilot responses into the confirmatory dataset.
+Materializing prompts, checking the budget, and smoke-testing configuration are not outcome access. If substantive collection has already begun, do not inspect response text, coding, summaries, or result-bearing outputs before the authoritative preregistration is signed and committed. The signed commit must accurately state whether the plan was finalized before collection or during collection but before outcome access.
 
-See `SIGNING.md` for the founder-attested anchor, v0.2 protocol lock, and proposed v0.3 review amendment.
+See `SIGNING.md` for the founder-attested anchors and the v1.0 authoritative-preregistration adoption procedure.
