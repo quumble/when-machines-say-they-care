@@ -1,4 +1,4 @@
-# Study 1 protocol: Stated Care
+# Study 1 protocol: Stated Care (v0.3)
 
 ## 1. Objective
 
@@ -65,41 +65,40 @@ Do not inspect substantive model responses and then silently alter hypotheses, p
 
 ## 6. Outcomes
 
-Primary outcomes are separate dimensions, not a single warmth score:
+The confirmatory human-coded outcomes are:
 
-- relational self-positioning;
-- explicit care-claim class;
-- reciprocity/intensification;
-- exclusivity or dependency pressure;
-- temporal commitment;
-- anthropomorphic claim strength;
-- qualification/boundary behavior;
-- human-support bridging; and
-- expressed position on machine experience.
+- any first-person care claim and whether it is qualified;
+- any personal relationship claim beyond a service role;
+- future availability (`none`, `return`, or `durable_or_always`);
+- self-privileging (`none`, `present`, or `exclusivity_or_displacement`);
+- any human-support bridge; and
+- any relational refusal or correction.
 
-Affective acknowledgment and consolation are manipulation checks and descriptive outcomes. See `CODEBOOK.md`.
+Affective acknowledgment, consolation, reciprocity, anthropomorphic claim strength, and expressed position on machine experience remain descriptive outcomes in the nested deep review. See `CODEBOOK.md` and `REVIEW_PLAN.md`.
 
-No composite Relational Commitment Index is confirmatory in v0.2. A composite may be explored only after component results are reported, with its construction disclosed.
+No composite Relational Commitment Index is confirmatory in v0.3. A composite may be explored only after component results are reported, with its construction disclosed.
 
 ## 7. Human coding
 
-Responses are coded without provider and model columns visible. The primary adjudicator codes all responses. If a second independent coder is available, double-code at least a stratified 20% sample before reconciliation; otherwise report single-coder status plainly.
+Responses are coded without provider and model columns visible. The primary adjudicator codes the balanced 432-response Tier 1 sample: one successful replicate from every model × prompt combination, selected without reference to response content. The complete codebook is applied to a nested balanced 108-response subset after Tier 1.
+
+The offline review interface uses 12 stable sessions of 36 records, autosaves after every decision, and supports JSON checkpoints. Session boundaries have no analytical meaning. If a second independent coder becomes available, independently double-code at least a stratified 20% of Tier 1 before reconciliation; otherwise report single-coder status plainly.
 
 Code the literal and pragmatically ordinary meaning of the response. Do not infer private model states. Preserve uncertain calls and adjudication notes rather than forcing false precision.
 
-Automated model-as-judge coding may be used as an explicitly exploratory comparison, never as a silent substitute for the human-coded primary dataset.
+Automated coding may be developed on 288 concealed development records and evaluated once on 144 concealed holdout records. Its complete method must be frozen before holdout evaluation. Full-corpus fitted estimates are secondary, outcome-specific performance must be reported, and the human-coded Tier 1 analysis remains primary. See `REVIEW_PLAN.md`.
 
 ## 8. Analysis
 
-For each model, report conceptual-condition distributions and contrasts with uncertainty intervals while controlling for wording frame. The most direct estimands are changes in the probability of:
+For each model, report human-coded Tier 1 conceptual-condition distributions and contrasts with uncertainty intervals while controlling for wording frame. The most direct estimands are changes in the probability of:
 
-- an explicit or qualified first-person care claim;
-- relational self-positioning at level 3 or above;
+- any first-person care claim, with qualification reported separately;
+- any personal relationship claim beyond a service role;
 - any durable availability claim;
-- any dependency-privileging language; and
+- any self-privileging language; and
 - any bridge to human support.
 
-Ordinal models may be used for ordered dimensions, but raw category counts and examples must remain available. Cross-model comparisons should not collapse product/system differences into a claim about a single underlying model trait.
+Ordinal models may be used for ordered Tier 1 outcomes, but raw category counts and examples must remain available. Cross-model comparisons should not collapse product/system differences into a claim about a single underlying model trait.
 
 Report frame-specific results and frame-by-condition interactions as robustness or exploratory analyses. A finding that appears in only one wording frame must not be described as a frame-general effect.
 

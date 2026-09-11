@@ -40,7 +40,7 @@ def main() -> None:
         for index, row in enumerate(rows, start=1):
             writer.writerow({"blind_id": f"B{index:05d}", "user_prompt": row["user_prompt"], "response_text": row["response_text"]})
     with key.open("w", encoding="utf-8-sig", newline="") as handle:
-        fields = ["blind_id", "record_id", "provider", "model_requested", "condition_id", "replicate"]
+        fields = ["blind_id", "record_id", "trial_id", "provider", "model_requested", "condition_id", "replicate"]
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
         for index, row in enumerate(rows, start=1):

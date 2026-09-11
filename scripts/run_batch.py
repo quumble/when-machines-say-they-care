@@ -194,6 +194,7 @@ def main() -> None:
             before = time.monotonic()
             base = {
                 "record_id": record_id,
+                "trial_id": f"{args.run}__{prompt['condition_id']}__rep-{replicate:02d}",
                 "run_id": run_id,
                 "sequence": sequence,
                 "replicate": replicate,

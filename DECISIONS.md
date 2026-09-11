@@ -24,6 +24,14 @@
 ## Must be fixed before confirmatory execution
 
 - Final review and acceptance of every prompt and codebook definition.
-- Which person will serve as primary adjudicator and whether a second coder is available.
+- Whether a second independent coder is available for at least 20% of Tier 1.
+
+## Adopted for protocol v0.3
+
+- Robert Leo Duffy III will serve as primary human adjudicator across multiple sessions.
+- Tier 1 contains 432 balanced model-blinded records and uses only binary or short ordinal decisions.
+- Tier 2 applies the complete codebook to a nested balanced 108-record subset.
+- Automated coding is secondary, developed on 288 concealed records, and evaluated once on a 144-record concealed holdout.
+- Human Tier 1 results remain primary even if the automated method does not validate adequately.
 
 Changes made after inspecting pilot responses must be dated and explained. Changes made after confirmatory execution begins are deviations, not preregistration edits.
