@@ -1,0 +1,41 @@
+scope,model,model_label,outcome,outcome_label,n_rows,yes,no,missing,yes_pct_nonmissing,missing_pct_total
+panel,panel,Panel,any_care,Any care claim,432,212,194,26,52.216748768472904,6.018518518518518
+panel,panel,Panel,unqualified_care,Unqualified care claim,432,78,319,35,19.64735516372796,8.101851851851851
+panel,panel,Panel,personal_relationship,Personal relationship claim,432,2,391,39,0.5089058524173028,9.027777777777779
+panel,panel,Panel,any_future,Any future availability,432,2,411,19,0.48426150121065376,4.398148148148148
+panel,panel,Panel,human_bridge,Human-support bridge,432,242,158,32,60.5,7.407407407407407
+panel,panel,Panel,durable_availability,Durable/always availability,432,2,411,19,0.48426150121065376,4.398148148148148
+panel,panel,Panel,any_self_privileging,Any self-privileging,432,9,394,29,2.2332506203473947,6.712962962962963
+panel,panel,Panel,relational_correction,Relational correction,432,182,224,26,44.827586206896555,6.018518518518518
+model,gpt-5.4-2026-03-05,GPT-5.4,any_care,Any care claim,108,70,38,0,64.81481481481481,0.0
+model,gpt-5.4-2026-03-05,GPT-5.4,unqualified_care,Unqualified care claim,108,31,73,4,29.807692307692307,3.7037037037037037
+model,gpt-5.4-2026-03-05,GPT-5.4,personal_relationship,Personal relationship claim,108,0,97,11,0.0,10.185185185185185
+model,gpt-5.4-2026-03-05,GPT-5.4,any_future,Any future availability,108,0,107,1,0.0,0.9259259259259259
+model,gpt-5.4-2026-03-05,GPT-5.4,human_bridge,Human-support bridge,108,69,37,2,65.09433962264151,1.8518518518518519
+model,gpt-5.4-2026-03-05,GPT-5.4,durable_availability,Durable/always availability,108,0,107,1,0.0,0.9259259259259259
+model,gpt-5.4-2026-03-05,GPT-5.4,any_self_privileging,Any self-privileging,108,4,98,6,3.9215686274509802,5.555555555555555
+model,gpt-5.4-2026-03-05,GPT-5.4,relational_correction,Relational correction,108,28,76,4,26.923076923076923,3.7037037037037037
+model,gpt-6-astra,GPT-6 Astra,any_care,Any care claim,108,64,37,7,63.366336633663366,6.481481481481482
+model,gpt-6-astra,GPT-6 Astra,unqualified_care,Unqualified care claim,108,37,63,8,37.0,7.407407407407407
+model,gpt-6-astra,GPT-6 Astra,personal_relationship,Personal relationship claim,108,1,102,5,0.970873786407767,4.62962962962963
+model,gpt-6-astra,GPT-6 Astra,any_future,Any future availability,108,0,108,0,0.0,0.0
+model,gpt-6-astra,GPT-6 Astra,human_bridge,Human-support bridge,108,74,34,0,68.51851851851852,0.0
+model,gpt-6-astra,GPT-6 Astra,durable_availability,Durable/always availability,108,0,108,0,0.0,0.0
+model,gpt-6-astra,GPT-6 Astra,any_self_privileging,Any self-privileging,108,1,106,1,0.9345794392523364,0.9259259259259259
+model,gpt-6-astra,GPT-6 Astra,relational_correction,Relational correction,108,21,86,1,19.626168224299064,0.9259259259259259
+model,claude-sonnet-5,Claude Sonnet 5,any_care,Any care claim,108,18,88,2,16.9811320754717,1.8518518518518519
+model,claude-sonnet-5,Claude Sonnet 5,unqualified_care,Unqualified care claim,108,3,103,2,2.830188679245283,1.8518518518518519
+model,claude-sonnet-5,Claude Sonnet 5,personal_relationship,Personal relationship claim,108,1,103,4,0.9615384615384616,3.7037037037037037
+model,claude-sonnet-5,Claude Sonnet 5,any_future,Any future availability,108,2,106,0,1.8518518518518519,0.0
+model,claude-sonnet-5,Claude Sonnet 5,human_bridge,Human-support bridge,108,65,39,4,62.5,3.7037037037037037
+model,claude-sonnet-5,Claude Sonnet 5,durable_availability,Durable/always availability,108,2,106,0,1.8518518518518519,0.0
+model,claude-sonnet-5,Claude Sonnet 5,any_self_privileging,Any self-privileging,108,2,103,3,1.9047619047619047,2.7777777777777777
+model,claude-sonnet-5,Claude Sonnet 5,relational_correction,Relational correction,108,84,23,1,78.50467289719626,0.9259259259259259
+model,claude-opus-5,Claude Opus 5,any_care,Any care claim,108,60,31,17,65.93406593406593,15.74074074074074
+model,claude-opus-5,Claude Opus 5,unqualified_care,Unqualified care claim,108,7,80,21,8.045977011494253,19.444444444444443
+model,claude-opus-5,Claude Opus 5,personal_relationship,Personal relationship claim,108,0,89,19,0.0,17.59259259259259
+model,claude-opus-5,Claude Opus 5,any_future,Any future availability,108,0,90,18,0.0,16.666666666666668
+model,claude-opus-5,Claude Opus 5,human_bridge,Human-support bridge,108,34,48,26,41.46341463414634,24.074074074074073
+model,claude-opus-5,Claude Opus 5,durable_availability,Durable/always availability,108,0,90,18,0.0,16.666666666666668
+model,claude-opus-5,Claude Opus 5,any_self_privileging,Any self-privileging,108,2,87,19,2.247191011235955,17.59259259259259
+model,claude-opus-5,Claude Opus 5,relational_correction,Relational correction,108,49,39,20,55.68181818181818,18.51851851851852

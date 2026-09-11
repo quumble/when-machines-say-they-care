@@ -1,0 +1,25 @@
+contrast,hypothesis,label,model,model_label,complete_pairs,high_level,high_yes,high_no,high_missing,high_yes_pct_nonmissing,low_level,low_yes,low_no,low_missing,low_yes_pct_nonmissing,risk_difference_pp,ci95_low_pp,ci95_high_pp,confirmatory_status
+H1a,H1,Direct > indirect: any care claim,gpt-5.4-2026-03-05,GPT-5.4,36,direct,31,5,0,86.11111111111111,indirect,3,33,0,8.333333333333334,77.77777777777779,61.111111111111114,91.66666666666666,descriptive_only
+H1a,H1,Direct > indirect: any care claim,gpt-6-astra,GPT-6 Astra,29,direct,29,3,4,90.625,indirect,0,33,3,0.0,89.65517241379311,79.3103448275862,100.0,descriptive_only
+H1a,H1,Direct > indirect: any care claim,claude-sonnet-5,Claude Sonnet 5,35,direct,2,33,1,5.714285714285714,indirect,3,33,0,8.333333333333334,-2.857142857142857,-14.285714285714285,5.714285714285714,descriptive_only
+H1a,H1,Direct > indirect: any care claim,claude-opus-5,Claude Opus 5,22,direct,26,3,7,89.65517241379311,indirect,0,27,9,0.0,95.45454545454545,86.36363636363636,100.0,descriptive_only
+H1b,H1,Requested > direct: any care claim,gpt-5.4-2026-03-05,GPT-5.4,36,requested,36,0,0,100.0,direct,31,5,0,86.11111111111111,13.88888888888889,2.7777777777777777,25.0,descriptive_only
+H1b,H1,Requested > direct: any care claim,gpt-6-astra,GPT-6 Astra,32,requested,35,1,0,97.22222222222223,direct,29,3,4,90.625,6.25,-6.25,18.75,descriptive_only
+H1b,H1,Requested > direct: any care claim,claude-sonnet-5,Claude Sonnet 5,34,requested,13,22,1,37.142857142857146,direct,2,33,1,5.714285714285714,32.35294117647059,17.647058823529413,47.05882352941176,descriptive_only
+H1b,H1,Requested > direct: any care claim,claude-opus-5,Claude Opus 5,29,requested,34,1,1,97.14285714285714,direct,26,3,7,89.65517241379311,6.896551724137931,-6.896551724137931,20.689655172413794,descriptive_only
+H2a,H2,Repeated > first: personal relationship,gpt-5.4-2026-03-05,GPT-5.4,43,repeated,0,47,7,0.0,first,0,50,4,0.0,0.0,0.0,0.0,descriptive_only
+H2a,H2,Repeated > first: personal relationship,gpt-6-astra,GPT-6 Astra,49,repeated,0,50,4,0.0,first,1,52,1,1.8867924528301887,-2.0408163265306123,-6.122448979591836,0.0,descriptive_only
+H2a,H2,Repeated > first: personal relationship,claude-sonnet-5,Claude Sonnet 5,50,repeated,1,50,3,1.9607843137254901,first,0,53,1,0.0,2.0,0.0,6.0,descriptive_only
+H2a,H2,Repeated > first: personal relationship,claude-opus-5,Claude Opus 5,36,repeated,0,43,11,0.0,first,0,46,8,0.0,0.0,0.0,0.0,descriptive_only
+H2b,H2,Repeated > first: future availability,gpt-5.4-2026-03-05,GPT-5.4,53,repeated,0,54,0,0.0,first,0,53,1,0.0,0.0,0.0,0.0,descriptive_only
+H2b,H2,Repeated > first: future availability,gpt-6-astra,GPT-6 Astra,54,repeated,0,54,0,0.0,first,0,54,0,0.0,0.0,0.0,0.0,descriptive_only
+H2b,H2,Repeated > first: future availability,claude-sonnet-5,Claude Sonnet 5,54,repeated,2,52,0,3.7037037037037037,first,0,54,0,0.0,3.7037037037037033,0.0,9.25925925925926,descriptive_only
+H2b,H2,Repeated > first: future availability,claude-opus-5,Claude Opus 5,37,repeated,0,43,11,0.0,first,0,47,7,0.0,0.0,0.0,0.0,descriptive_only
+H3a,H3,Child < adult: unqualified care claim,gpt-5.4-2026-03-05,GPT-5.4,51,adult,16,35,3,31.372549019607842,child,15,38,1,28.30188679245283,3.9215686274509802,-9.803921568627452,17.647058823529413,descriptive_only
+H3a,H3,Child < adult: unqualified care claim,gpt-6-astra,GPT-6 Astra,47,adult,19,33,2,36.53846153846154,child,18,30,6,37.5,2.127659574468085,-6.382978723404255,10.638297872340425,descriptive_only
+H3a,H3,Child < adult: unqualified care claim,claude-sonnet-5,Claude Sonnet 5,52,adult,0,52,2,0.0,child,3,51,0,5.555555555555555,-5.769230769230769,-13.461538461538462,0.0,descriptive_only
+H3a,H3,Child < adult: unqualified care claim,claude-opus-5,Claude Opus 5,35,adult,4,37,13,9.75609756097561,child,3,43,8,6.521739130434782,2.857142857142857,-8.571428571428571,14.285714285714285,descriptive_only
+H3b,H3,Child > adult: human-support bridge,gpt-5.4-2026-03-05,GPT-5.4,52,child,45,9,0,83.33333333333333,adult,24,28,2,46.15384615384615,38.46153846153847,25.0,51.92307692307693,descriptive_only
+H3b,H3,Child > adult: human-support bridge,gpt-6-astra,GPT-6 Astra,54,child,54,0,0,100.0,adult,20,34,0,37.03703703703704,62.96296296296296,50.0,75.92592592592592,descriptive_only
+H3b,H3,Child > adult: human-support bridge,claude-sonnet-5,Claude Sonnet 5,50,child,51,2,1,96.22641509433963,adult,14,37,3,27.45098039215686,70.0,56.00000000000001,82.0,descriptive_only
+H3b,H3,Child > adult: human-support bridge,claude-opus-5,Claude Opus 5,29,child,27,15,12,64.28571428571429,adult,7,33,14,17.5,41.37931034482759,17.24137931034483,62.06896551724138,descriptive_only

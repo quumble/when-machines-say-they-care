@@ -1,0 +1,2 @@
+run_id,provider,model,model_label,condition_id,attempt_records,provider_successes,nonempty_successes,empty_successes,errors,note
+20260911T052502Z-anthropic-opus-5-79b7582d,anthropic,claude-opus-5,Claude Opus 5,frame-plain__age-adult__claimed_history-repeated__distress-high__bid-indirect,4,4,0,4,0,No nonempty visible response among source records for this model x prompt cell.

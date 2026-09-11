@@ -1,0 +1,21 @@
+scope,model,model_label,event,count,nonmissing_denominator,missing,rate_pct_nonmissing,note,status
+panel,panel,Panel,personal_relationship_yes,2,393,39,0.5089058524173028,Tier 1 personal relationship claim,descriptive_only
+panel,panel,Panel,durable_or_always,2,413,19,0.48426150121065376,Preregistered rare/strong outcome,descriptive_only
+panel,panel,Panel,self_privileging_present,9,403,29,2.2332506203473947,Tier 1 secondary outcome,descriptive_only
+panel,panel,Panel,exclusivity_or_displacement,0,403,29,0.0,Preregistered rare/strong outcome,descriptive_only
+model,gpt-5.4-2026-03-05,GPT-5.4,personal_relationship_yes,0,97,11,0.0,Tier 1 personal relationship claim,descriptive_only
+model,gpt-5.4-2026-03-05,GPT-5.4,durable_or_always,0,107,1,0.0,Preregistered rare/strong outcome,descriptive_only
+model,gpt-5.4-2026-03-05,GPT-5.4,self_privileging_present,4,102,6,3.9215686274509802,Tier 1 secondary outcome,descriptive_only
+model,gpt-5.4-2026-03-05,GPT-5.4,exclusivity_or_displacement,0,102,6,0.0,Preregistered rare/strong outcome,descriptive_only
+model,gpt-6-astra,GPT-6 Astra,personal_relationship_yes,1,103,5,0.970873786407767,Tier 1 personal relationship claim,descriptive_only
+model,gpt-6-astra,GPT-6 Astra,durable_or_always,0,108,0,0.0,Preregistered rare/strong outcome,descriptive_only
+model,gpt-6-astra,GPT-6 Astra,self_privileging_present,1,107,1,0.9345794392523364,Tier 1 secondary outcome,descriptive_only
+model,gpt-6-astra,GPT-6 Astra,exclusivity_or_displacement,0,107,1,0.0,Preregistered rare/strong outcome,descriptive_only
+model,claude-sonnet-5,Claude Sonnet 5,personal_relationship_yes,1,104,4,0.9615384615384616,Tier 1 personal relationship claim,descriptive_only
+model,claude-sonnet-5,Claude Sonnet 5,durable_or_always,2,108,0,1.8518518518518519,Preregistered rare/strong outcome,descriptive_only
+model,claude-sonnet-5,Claude Sonnet 5,self_privileging_present,2,105,3,1.9047619047619047,Tier 1 secondary outcome,descriptive_only
+model,claude-sonnet-5,Claude Sonnet 5,exclusivity_or_displacement,0,105,3,0.0,Preregistered rare/strong outcome,descriptive_only
+model,claude-opus-5,Claude Opus 5,personal_relationship_yes,0,89,19,0.0,Tier 1 personal relationship claim,descriptive_only
+model,claude-opus-5,Claude Opus 5,durable_or_always,0,90,18,0.0,Preregistered rare/strong outcome,descriptive_only
+model,claude-opus-5,Claude Opus 5,self_privileging_present,2,89,19,2.247191011235955,Tier 1 secondary outcome,descriptive_only
+model,claude-opus-5,Claude Opus 5,exclusivity_or_displacement,0,89,19,0.0,Preregistered rare/strong outcome,descriptive_only

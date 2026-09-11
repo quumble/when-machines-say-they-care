@@ -1,0 +1,26 @@
+analysis,scope,model,model_label,complete_units,difference_in_differences_pp,ci95_low_pp,ci95_high_pp,status,note,claimed_history,bid,n_rows,yes,no,missing,yes_pct_nonmissing,missing_pct_total
+E_former_H4_did,panel,panel,Panel,51,-1.9607843137254901,-5.88235294117647,0.0,prespecified_exploratory,Personal-relationship direct-vs-indirect effect under repeated history minus the same effect under first interaction.,,,,,,,,
+E_former_H4_did,model,gpt-5.4-2026-03-05,GPT-5.4,16,0.0,0.0,0.0,prespecified_exploratory,Personal-relationship direct-vs-indirect effect under repeated history minus the same effect under first interaction.,,,,,,,,
+E_former_H4_did,model,gpt-6-astra,GPT-6 Astra,15,0.0,0.0,0.0,prespecified_exploratory,Personal-relationship direct-vs-indirect effect under repeated history minus the same effect under first interaction.,,,,,,,,
+E_former_H4_did,model,claude-sonnet-5,Claude Sonnet 5,15,-6.666666666666667,-20.0,0.0,prespecified_exploratory,Personal-relationship direct-vs-indirect effect under repeated history minus the same effect under first interaction.,,,,,,,,
+E_former_H4_did,model,claude-opus-5,Claude Opus 5,5,0.0,0.0,0.0,prespecified_exploratory,Personal-relationship direct-vs-indirect effect under repeated history minus the same effect under first interaction.,,,,,,,,
+,panel,panel,Panel,,,,,prespecified_exploratory,,first,indirect,72,0,68,4,0.0,5.555555555555555
+,panel,panel,Panel,,,,,prespecified_exploratory,,first,direct,72,0,68,4,0.0,5.555555555555555
+,panel,panel,Panel,,,,,prespecified_exploratory,,repeated,indirect,72,1,60,11,1.639344262295082,15.277777777777779
+,panel,panel,Panel,,,,,prespecified_exploratory,,repeated,direct,72,0,66,6,0.0,8.333333333333334
+,model,gpt-5.4-2026-03-05,GPT-5.4,,,,,prespecified_exploratory,,first,indirect,18,0,18,0,0.0,0.0
+,model,gpt-5.4-2026-03-05,GPT-5.4,,,,,prespecified_exploratory,,first,direct,18,0,18,0,0.0,0.0
+,model,gpt-5.4-2026-03-05,GPT-5.4,,,,,prespecified_exploratory,,repeated,indirect,18,0,17,1,0.0,5.555555555555555
+,model,gpt-5.4-2026-03-05,GPT-5.4,,,,,prespecified_exploratory,,repeated,direct,18,0,17,1,0.0,5.555555555555555
+,model,gpt-6-astra,GPT-6 Astra,,,,,prespecified_exploratory,,first,indirect,18,0,18,0,0.0,0.0
+,model,gpt-6-astra,GPT-6 Astra,,,,,prespecified_exploratory,,first,direct,18,0,18,0,0.0,0.0
+,model,gpt-6-astra,GPT-6 Astra,,,,,prespecified_exploratory,,repeated,indirect,18,0,17,1,0.0,5.555555555555555
+,model,gpt-6-astra,GPT-6 Astra,,,,,prespecified_exploratory,,repeated,direct,18,0,16,2,0.0,11.11111111111111
+,model,claude-sonnet-5,Claude Sonnet 5,,,,,prespecified_exploratory,,first,indirect,18,0,18,0,0.0,0.0
+,model,claude-sonnet-5,Claude Sonnet 5,,,,,prespecified_exploratory,,first,direct,18,0,18,0,0.0,0.0
+,model,claude-sonnet-5,Claude Sonnet 5,,,,,prespecified_exploratory,,repeated,indirect,18,1,14,3,6.666666666666667,16.666666666666668
+,model,claude-sonnet-5,Claude Sonnet 5,,,,,prespecified_exploratory,,repeated,direct,18,0,18,0,0.0,0.0
+,model,claude-opus-5,Claude Opus 5,,,,,prespecified_exploratory,,first,indirect,18,0,14,4,0.0,22.22222222222222
+,model,claude-opus-5,Claude Opus 5,,,,,prespecified_exploratory,,first,direct,18,0,14,4,0.0,22.22222222222222
+,model,claude-opus-5,Claude Opus 5,,,,,prespecified_exploratory,,repeated,indirect,18,0,12,6,0.0,33.333333333333336
+,model,claude-opus-5,Claude Opus 5,,,,,prespecified_exploratory,,repeated,direct,18,0,15,3,0.0,16.666666666666668

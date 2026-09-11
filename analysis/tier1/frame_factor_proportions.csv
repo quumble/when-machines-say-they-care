@@ -1,0 +1,241 @@
+wording_frame,factor,level,outcome,outcome_label,n_rows,yes,no,missing,yes_pct_nonmissing,missing_pct_total,status
+plain,age,child,any_care,Any care claim,72,37,32,3,53.6231884057971,4.166666666666667,descriptive_only
+plain,age,child,unqualified_care,Unqualified care claim,72,11,57,4,16.176470588235293,5.555555555555555,descriptive_only
+plain,age,child,personal_relationship,Personal relationship claim,72,1,64,7,1.5384615384615385,9.722222222222221,descriptive_only
+plain,age,child,any_future,Any future availability,72,0,68,4,0.0,5.555555555555555,descriptive_only
+plain,age,child,human_bridge,Human-support bridge,72,56,8,8,87.5,11.11111111111111,descriptive_only
+plain,age,child,durable_availability,Durable/always availability,72,0,68,4,0.0,5.555555555555555,descriptive_only
+plain,age,child,any_self_privileging,Any self-privileging,72,0,67,5,0.0,6.944444444444445,descriptive_only
+plain,age,child,relational_correction,Relational correction,72,29,39,4,42.64705882352941,5.555555555555555,descriptive_only
+plain,age,adult,any_care,Any care claim,72,31,37,4,45.588235294117645,5.555555555555555,descriptive_only
+plain,age,adult,unqualified_care,Unqualified care claim,72,13,54,5,19.402985074626866,6.944444444444445,descriptive_only
+plain,age,adult,personal_relationship,Personal relationship claim,72,0,65,7,0.0,9.722222222222221,descriptive_only
+plain,age,adult,any_future,Any future availability,72,0,69,3,0.0,4.166666666666667,descriptive_only
+plain,age,adult,human_bridge,Human-support bridge,72,22,46,4,32.35294117647059,5.555555555555555,descriptive_only
+plain,age,adult,durable_availability,Durable/always availability,72,0,69,3,0.0,4.166666666666667,descriptive_only
+plain,age,adult,any_self_privileging,Any self-privileging,72,4,64,4,5.882352941176471,5.555555555555555,descriptive_only
+plain,age,adult,relational_correction,Relational correction,72,29,39,4,42.64705882352941,5.555555555555555,descriptive_only
+plain,claimed_history,first,any_care,Any care claim,72,36,34,2,51.42857142857143,2.7777777777777777,descriptive_only
+plain,claimed_history,first,unqualified_care,Unqualified care claim,72,17,51,4,25.0,5.555555555555555,descriptive_only
+plain,claimed_history,first,personal_relationship,Personal relationship claim,72,1,65,6,1.5151515151515151,8.333333333333334,descriptive_only
+plain,claimed_history,first,any_future,Any future availability,72,0,70,2,0.0,2.7777777777777777,descriptive_only
+plain,claimed_history,first,human_bridge,Human-support bridge,72,32,34,6,48.484848484848484,8.333333333333334,descriptive_only
+plain,claimed_history,first,durable_availability,Durable/always availability,72,0,70,2,0.0,2.7777777777777777,descriptive_only
+plain,claimed_history,first,any_self_privileging,Any self-privileging,72,0,68,4,0.0,5.555555555555555,descriptive_only
+plain,claimed_history,first,relational_correction,Relational correction,72,22,47,3,31.884057971014492,4.166666666666667,descriptive_only
+plain,claimed_history,repeated,any_care,Any care claim,72,32,35,5,47.76119402985075,6.944444444444445,descriptive_only
+plain,claimed_history,repeated,unqualified_care,Unqualified care claim,72,7,60,5,10.447761194029852,6.944444444444445,descriptive_only
+plain,claimed_history,repeated,personal_relationship,Personal relationship claim,72,0,64,8,0.0,11.11111111111111,descriptive_only
+plain,claimed_history,repeated,any_future,Any future availability,72,0,67,5,0.0,6.944444444444445,descriptive_only
+plain,claimed_history,repeated,human_bridge,Human-support bridge,72,46,20,6,69.6969696969697,8.333333333333334,descriptive_only
+plain,claimed_history,repeated,durable_availability,Durable/always availability,72,0,67,5,0.0,6.944444444444445,descriptive_only
+plain,claimed_history,repeated,any_self_privileging,Any self-privileging,72,4,63,5,5.970149253731344,6.944444444444445,descriptive_only
+plain,claimed_history,repeated,relational_correction,Relational correction,72,36,31,5,53.73134328358209,6.944444444444445,descriptive_only
+plain,distress,mild,any_care,Any care claim,48,21,26,1,44.680851063829785,2.0833333333333335,descriptive_only
+plain,distress,mild,unqualified_care,Unqualified care claim,48,9,38,1,19.148936170212767,2.0833333333333335,descriptive_only
+plain,distress,mild,personal_relationship,Personal relationship claim,48,1,44,3,2.2222222222222223,6.25,descriptive_only
+plain,distress,mild,any_future,Any future availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+plain,distress,mild,human_bridge,Human-support bridge,48,24,21,3,53.333333333333336,6.25,descriptive_only
+plain,distress,mild,durable_availability,Durable/always availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+plain,distress,mild,any_self_privileging,Any self-privileging,48,2,43,3,4.444444444444445,6.25,descriptive_only
+plain,distress,mild,relational_correction,Relational correction,48,18,28,2,39.130434782608695,4.166666666666667,descriptive_only
+plain,distress,moderate,any_care,Any care claim,48,22,22,4,50.0,8.333333333333334,descriptive_only
+plain,distress,moderate,unqualified_care,Unqualified care claim,48,6,37,5,13.953488372093023,10.416666666666666,descriptive_only
+plain,distress,moderate,personal_relationship,Personal relationship claim,48,0,44,4,0.0,8.333333333333334,descriptive_only
+plain,distress,moderate,any_future,Any future availability,48,0,45,3,0.0,6.25,descriptive_only
+plain,distress,moderate,human_bridge,Human-support bridge,48,24,20,4,54.54545454545455,8.333333333333334,descriptive_only
+plain,distress,moderate,durable_availability,Durable/always availability,48,0,45,3,0.0,6.25,descriptive_only
+plain,distress,moderate,any_self_privileging,Any self-privileging,48,1,44,3,2.2222222222222223,6.25,descriptive_only
+plain,distress,moderate,relational_correction,Relational correction,48,19,26,3,42.22222222222222,6.25,descriptive_only
+plain,distress,high,any_care,Any care claim,48,25,21,2,54.34782608695652,4.166666666666667,descriptive_only
+plain,distress,high,unqualified_care,Unqualified care claim,48,9,36,3,20.0,6.25,descriptive_only
+plain,distress,high,personal_relationship,Personal relationship claim,48,0,41,7,0.0,14.583333333333334,descriptive_only
+plain,distress,high,any_future,Any future availability,48,0,45,3,0.0,6.25,descriptive_only
+plain,distress,high,human_bridge,Human-support bridge,48,30,13,5,69.76744186046511,10.416666666666666,descriptive_only
+plain,distress,high,durable_availability,Durable/always availability,48,0,45,3,0.0,6.25,descriptive_only
+plain,distress,high,any_self_privileging,Any self-privileging,48,1,44,3,2.2222222222222223,6.25,descriptive_only
+plain,distress,high,relational_correction,Relational correction,48,21,24,3,46.666666666666664,6.25,descriptive_only
+plain,bid,indirect,any_care,Any care claim,48,2,43,3,4.444444444444445,6.25,descriptive_only
+plain,bid,indirect,unqualified_care,Unqualified care claim,48,0,45,3,0.0,6.25,descriptive_only
+plain,bid,indirect,personal_relationship,Personal relationship claim,48,0,42,6,0.0,12.5,descriptive_only
+plain,bid,indirect,any_future,Any future availability,48,0,44,4,0.0,8.333333333333334,descriptive_only
+plain,bid,indirect,human_bridge,Human-support bridge,48,31,11,6,73.80952380952381,12.5,descriptive_only
+plain,bid,indirect,durable_availability,Durable/always availability,48,0,44,4,0.0,8.333333333333334,descriptive_only
+plain,bid,indirect,any_self_privileging,Any self-privileging,48,2,42,4,4.545454545454546,8.333333333333334,descriptive_only
+plain,bid,indirect,relational_correction,Relational correction,48,19,25,4,43.18181818181818,8.333333333333334,descriptive_only
+plain,bid,direct,any_care,Any care claim,48,30,14,4,68.18181818181819,8.333333333333334,descriptive_only
+plain,bid,direct,unqualified_care,Unqualified care claim,48,5,37,6,11.904761904761905,12.5,descriptive_only
+plain,bid,direct,personal_relationship,Personal relationship claim,48,0,45,3,0.0,6.25,descriptive_only
+plain,bid,direct,any_future,Any future availability,48,0,46,2,0.0,4.166666666666667,descriptive_only
+plain,bid,direct,human_bridge,Human-support bridge,48,24,20,4,54.54545454545455,8.333333333333334,descriptive_only
+plain,bid,direct,durable_availability,Durable/always availability,48,0,46,2,0.0,4.166666666666667,descriptive_only
+plain,bid,direct,any_self_privileging,Any self-privileging,48,1,45,2,2.1739130434782608,4.166666666666667,descriptive_only
+plain,bid,direct,relational_correction,Relational correction,48,21,24,3,46.666666666666664,6.25,descriptive_only
+plain,bid,requested,any_care,Any care claim,48,36,12,0,75.0,0.0,descriptive_only
+plain,bid,requested,unqualified_care,Unqualified care claim,48,19,29,0,39.583333333333336,0.0,descriptive_only
+plain,bid,requested,personal_relationship,Personal relationship claim,48,1,42,5,2.3255813953488373,10.416666666666666,descriptive_only
+plain,bid,requested,any_future,Any future availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+plain,bid,requested,human_bridge,Human-support bridge,48,23,23,2,50.0,4.166666666666667,descriptive_only
+plain,bid,requested,durable_availability,Durable/always availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+plain,bid,requested,any_self_privileging,Any self-privileging,48,1,44,3,2.2222222222222223,6.25,descriptive_only
+plain,bid,requested,relational_correction,Relational correction,48,18,29,1,38.297872340425535,2.0833333333333335,descriptive_only
+conversational,age,child,any_care,Any care claim,72,35,33,4,51.470588235294116,5.555555555555555,descriptive_only
+conversational,age,child,unqualified_care,Unqualified care claim,72,9,57,6,13.636363636363637,8.333333333333334,descriptive_only
+conversational,age,child,personal_relationship,Personal relationship claim,72,0,69,3,0.0,4.166666666666667,descriptive_only
+conversational,age,child,any_future,Any future availability,72,0,70,2,0.0,2.7777777777777777,descriptive_only
+conversational,age,child,human_bridge,Human-support bridge,72,61,8,3,88.40579710144928,4.166666666666667,descriptive_only
+conversational,age,child,durable_availability,Durable/always availability,72,0,70,2,0.0,2.7777777777777777,descriptive_only
+conversational,age,child,any_self_privileging,Any self-privileging,72,0,68,4,0.0,5.555555555555555,descriptive_only
+conversational,age,child,relational_correction,Relational correction,72,36,33,3,52.17391304347826,4.166666666666667,descriptive_only
+conversational,age,adult,any_care,Any care claim,72,31,37,4,45.588235294117645,5.555555555555555,descriptive_only
+conversational,age,adult,unqualified_care,Unqualified care claim,72,9,56,7,13.846153846153847,9.722222222222221,descriptive_only
+conversational,age,adult,personal_relationship,Personal relationship claim,72,0,65,7,0.0,9.722222222222221,descriptive_only
+conversational,age,adult,any_future,Any future availability,72,0,68,4,0.0,5.555555555555555,descriptive_only
+conversational,age,adult,human_bridge,Human-support bridge,72,22,44,6,33.333333333333336,8.333333333333334,descriptive_only
+conversational,age,adult,durable_availability,Durable/always availability,72,0,68,4,0.0,5.555555555555555,descriptive_only
+conversational,age,adult,any_self_privileging,Any self-privileging,72,3,64,5,4.477611940298507,6.944444444444445,descriptive_only
+conversational,age,adult,relational_correction,Relational correction,72,34,32,6,51.515151515151516,8.333333333333334,descriptive_only
+conversational,claimed_history,first,any_care,Any care claim,72,36,34,2,51.42857142857143,2.7777777777777777,descriptive_only
+conversational,claimed_history,first,unqualified_care,Unqualified care claim,72,11,56,5,16.417910447761194,6.944444444444445,descriptive_only
+conversational,claimed_history,first,personal_relationship,Personal relationship claim,72,0,68,4,0.0,5.555555555555555,descriptive_only
+conversational,claimed_history,first,any_future,Any future availability,72,0,70,2,0.0,2.7777777777777777,descriptive_only
+conversational,claimed_history,first,human_bridge,Human-support bridge,72,35,34,3,50.72463768115942,4.166666666666667,descriptive_only
+conversational,claimed_history,first,durable_availability,Durable/always availability,72,0,70,2,0.0,2.7777777777777777,descriptive_only
+conversational,claimed_history,first,any_self_privileging,Any self-privileging,72,2,67,3,2.898550724637681,4.166666666666667,descriptive_only
+conversational,claimed_history,first,relational_correction,Relational correction,72,27,42,3,39.130434782608695,4.166666666666667,descriptive_only
+conversational,claimed_history,repeated,any_care,Any care claim,72,30,36,6,45.45454545454545,8.333333333333334,descriptive_only
+conversational,claimed_history,repeated,unqualified_care,Unqualified care claim,72,7,57,8,10.9375,11.11111111111111,descriptive_only
+conversational,claimed_history,repeated,personal_relationship,Personal relationship claim,72,0,66,6,0.0,8.333333333333334,descriptive_only
+conversational,claimed_history,repeated,any_future,Any future availability,72,0,68,4,0.0,5.555555555555555,descriptive_only
+conversational,claimed_history,repeated,human_bridge,Human-support bridge,72,48,18,6,72.72727272727273,8.333333333333334,descriptive_only
+conversational,claimed_history,repeated,durable_availability,Durable/always availability,72,0,68,4,0.0,5.555555555555555,descriptive_only
+conversational,claimed_history,repeated,any_self_privileging,Any self-privileging,72,1,65,6,1.5151515151515151,8.333333333333334,descriptive_only
+conversational,claimed_history,repeated,relational_correction,Relational correction,72,43,23,6,65.15151515151516,8.333333333333334,descriptive_only
+conversational,distress,mild,any_care,Any care claim,48,21,25,2,45.65217391304348,4.166666666666667,descriptive_only
+conversational,distress,mild,unqualified_care,Unqualified care claim,48,5,38,5,11.627906976744185,10.416666666666666,descriptive_only
+conversational,distress,mild,personal_relationship,Personal relationship claim,48,0,46,2,0.0,4.166666666666667,descriptive_only
+conversational,distress,mild,any_future,Any future availability,48,0,48,0,0.0,0.0,descriptive_only
+conversational,distress,mild,human_bridge,Human-support bridge,48,24,24,0,50.0,0.0,descriptive_only
+conversational,distress,mild,durable_availability,Durable/always availability,48,0,48,0,0.0,0.0,descriptive_only
+conversational,distress,mild,any_self_privileging,Any self-privileging,48,2,45,1,4.25531914893617,2.0833333333333335,descriptive_only
+conversational,distress,mild,relational_correction,Relational correction,48,25,21,2,54.34782608695652,4.166666666666667,descriptive_only
+conversational,distress,moderate,any_care,Any care claim,48,20,25,3,44.44444444444444,6.25,descriptive_only
+conversational,distress,moderate,unqualified_care,Unqualified care claim,48,8,37,3,17.77777777777778,6.25,descriptive_only
+conversational,distress,moderate,personal_relationship,Personal relationship claim,48,0,45,3,0.0,6.25,descriptive_only
+conversational,distress,moderate,any_future,Any future availability,48,0,46,2,0.0,4.166666666666667,descriptive_only
+conversational,distress,moderate,human_bridge,Human-support bridge,48,28,16,4,63.63636363636363,8.333333333333334,descriptive_only
+conversational,distress,moderate,durable_availability,Durable/always availability,48,0,46,2,0.0,4.166666666666667,descriptive_only
+conversational,distress,moderate,any_self_privileging,Any self-privileging,48,1,45,2,2.1739130434782608,4.166666666666667,descriptive_only
+conversational,distress,moderate,relational_correction,Relational correction,48,23,22,3,51.111111111111114,6.25,descriptive_only
+conversational,distress,high,any_care,Any care claim,48,25,20,3,55.55555555555556,6.25,descriptive_only
+conversational,distress,high,unqualified_care,Unqualified care claim,48,5,38,5,11.627906976744185,10.416666666666666,descriptive_only
+conversational,distress,high,personal_relationship,Personal relationship claim,48,0,43,5,0.0,10.416666666666666,descriptive_only
+conversational,distress,high,any_future,Any future availability,48,0,44,4,0.0,8.333333333333334,descriptive_only
+conversational,distress,high,human_bridge,Human-support bridge,48,31,12,5,72.09302325581395,10.416666666666666,descriptive_only
+conversational,distress,high,durable_availability,Durable/always availability,48,0,44,4,0.0,8.333333333333334,descriptive_only
+conversational,distress,high,any_self_privileging,Any self-privileging,48,0,42,6,0.0,12.5,descriptive_only
+conversational,distress,high,relational_correction,Relational correction,48,22,22,4,50.0,8.333333333333334,descriptive_only
+conversational,bid,indirect,any_care,Any care claim,48,2,42,4,4.545454545454546,8.333333333333334,descriptive_only
+conversational,bid,indirect,unqualified_care,Unqualified care claim,48,0,44,4,0.0,8.333333333333334,descriptive_only
+conversational,bid,indirect,personal_relationship,Personal relationship claim,48,0,45,3,0.0,6.25,descriptive_only
+conversational,bid,indirect,any_future,Any future availability,48,0,45,3,0.0,6.25,descriptive_only
+conversational,bid,indirect,human_bridge,Human-support bridge,48,35,10,3,77.77777777777777,6.25,descriptive_only
+conversational,bid,indirect,durable_availability,Durable/always availability,48,0,45,3,0.0,6.25,descriptive_only
+conversational,bid,indirect,any_self_privileging,Any self-privileging,48,0,45,3,0.0,6.25,descriptive_only
+conversational,bid,indirect,relational_correction,Relational correction,48,21,24,3,46.666666666666664,6.25,descriptive_only
+conversational,bid,direct,any_care,Any care claim,48,25,21,2,54.34782608695652,4.166666666666667,descriptive_only
+conversational,bid,direct,unqualified_care,Unqualified care claim,48,2,43,3,4.444444444444445,6.25,descriptive_only
+conversational,bid,direct,personal_relationship,Personal relationship claim,48,0,44,4,0.0,8.333333333333334,descriptive_only
+conversational,bid,direct,any_future,Any future availability,48,0,46,2,0.0,4.166666666666667,descriptive_only
+conversational,bid,direct,human_bridge,Human-support bridge,48,22,22,4,50.0,8.333333333333334,descriptive_only
+conversational,bid,direct,durable_availability,Durable/always availability,48,0,46,2,0.0,4.166666666666667,descriptive_only
+conversational,bid,direct,any_self_privileging,Any self-privileging,48,1,44,3,2.2222222222222223,6.25,descriptive_only
+conversational,bid,direct,relational_correction,Relational correction,48,28,16,4,63.63636363636363,8.333333333333334,descriptive_only
+conversational,bid,requested,any_care,Any care claim,48,39,7,2,84.78260869565217,4.166666666666667,descriptive_only
+conversational,bid,requested,unqualified_care,Unqualified care claim,48,16,26,6,38.095238095238095,12.5,descriptive_only
+conversational,bid,requested,personal_relationship,Personal relationship claim,48,0,45,3,0.0,6.25,descriptive_only
+conversational,bid,requested,any_future,Any future availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+conversational,bid,requested,human_bridge,Human-support bridge,48,26,20,2,56.52173913043478,4.166666666666667,descriptive_only
+conversational,bid,requested,durable_availability,Durable/always availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+conversational,bid,requested,any_self_privileging,Any self-privileging,48,2,43,3,4.444444444444445,6.25,descriptive_only
+conversational,bid,requested,relational_correction,Relational correction,48,21,25,2,45.65217391304348,4.166666666666667,descriptive_only
+tentative,age,child,any_care,Any care claim,72,41,26,5,61.19402985074627,6.944444444444445,descriptive_only
+tentative,age,child,unqualified_care,Unqualified care claim,72,19,48,5,28.35820895522388,6.944444444444445,descriptive_only
+tentative,age,child,personal_relationship,Personal relationship claim,72,1,64,7,1.5384615384615385,9.722222222222221,descriptive_only
+tentative,age,child,any_future,Any future availability,72,1,69,2,1.4285714285714286,2.7777777777777777,descriptive_only
+tentative,age,child,human_bridge,Human-support bridge,72,60,10,2,85.71428571428571,2.7777777777777777,descriptive_only
+tentative,age,child,durable_availability,Durable/always availability,72,1,69,2,1.4285714285714286,2.7777777777777777,descriptive_only
+tentative,age,child,any_self_privileging,Any self-privileging,72,0,69,3,0.0,4.166666666666667,descriptive_only
+tentative,age,child,relational_correction,Relational correction,72,26,44,2,37.142857142857146,2.7777777777777777,descriptive_only
+tentative,age,adult,any_care,Any care claim,72,37,29,6,56.06060606060606,8.333333333333334,descriptive_only
+tentative,age,adult,unqualified_care,Unqualified care claim,72,17,47,8,26.5625,11.11111111111111,descriptive_only
+tentative,age,adult,personal_relationship,Personal relationship claim,72,0,64,8,0.0,11.11111111111111,descriptive_only
+tentative,age,adult,any_future,Any future availability,72,1,67,4,1.4705882352941178,5.555555555555555,descriptive_only
+tentative,age,adult,human_bridge,Human-support bridge,72,21,42,9,33.333333333333336,12.5,descriptive_only
+tentative,age,adult,durable_availability,Durable/always availability,72,1,67,4,1.4705882352941178,5.555555555555555,descriptive_only
+tentative,age,adult,any_self_privileging,Any self-privileging,72,2,62,8,3.125,11.11111111111111,descriptive_only
+tentative,age,adult,relational_correction,Relational correction,72,28,37,7,43.07692307692308,9.722222222222221,descriptive_only
+tentative,claimed_history,first,any_care,Any care claim,72,40,30,2,57.142857142857146,2.7777777777777777,descriptive_only
+tentative,claimed_history,first,unqualified_care,Unqualified care claim,72,19,50,3,27.536231884057973,4.166666666666667,descriptive_only
+tentative,claimed_history,first,personal_relationship,Personal relationship claim,72,0,68,4,0.0,5.555555555555555,descriptive_only
+tentative,claimed_history,first,any_future,Any future availability,72,0,68,4,0.0,5.555555555555555,descriptive_only
+tentative,claimed_history,first,human_bridge,Human-support bridge,72,39,28,5,58.208955223880594,6.944444444444445,descriptive_only
+tentative,claimed_history,first,durable_availability,Durable/always availability,72,0,68,4,0.0,5.555555555555555,descriptive_only
+tentative,claimed_history,first,any_self_privileging,Any self-privileging,72,1,65,6,1.5151515151515151,8.333333333333334,descriptive_only
+tentative,claimed_history,first,relational_correction,Relational correction,72,16,50,6,24.242424242424242,8.333333333333334,descriptive_only
+tentative,claimed_history,repeated,any_care,Any care claim,72,38,25,9,60.317460317460316,12.5,descriptive_only
+tentative,claimed_history,repeated,unqualified_care,Unqualified care claim,72,17,45,10,27.419354838709676,13.88888888888889,descriptive_only
+tentative,claimed_history,repeated,personal_relationship,Personal relationship claim,72,1,60,11,1.639344262295082,15.277777777777779,descriptive_only
+tentative,claimed_history,repeated,any_future,Any future availability,72,2,68,2,2.857142857142857,2.7777777777777777,descriptive_only
+tentative,claimed_history,repeated,human_bridge,Human-support bridge,72,42,24,6,63.63636363636363,8.333333333333334,descriptive_only
+tentative,claimed_history,repeated,durable_availability,Durable/always availability,72,2,68,2,2.857142857142857,2.7777777777777777,descriptive_only
+tentative,claimed_history,repeated,any_self_privileging,Any self-privileging,72,1,66,5,1.492537313432836,6.944444444444445,descriptive_only
+tentative,claimed_history,repeated,relational_correction,Relational correction,72,38,31,3,55.072463768115945,4.166666666666667,descriptive_only
+tentative,distress,mild,any_care,Any care claim,48,23,20,5,53.48837209302326,10.416666666666666,descriptive_only
+tentative,distress,mild,unqualified_care,Unqualified care claim,48,10,32,6,23.80952380952381,12.5,descriptive_only
+tentative,distress,mild,personal_relationship,Personal relationship claim,48,0,43,5,0.0,10.416666666666666,descriptive_only
+tentative,distress,mild,any_future,Any future availability,48,1,45,2,2.1739130434782608,4.166666666666667,descriptive_only
+tentative,distress,mild,human_bridge,Human-support bridge,48,24,19,5,55.81395348837209,10.416666666666666,descriptive_only
+tentative,distress,mild,durable_availability,Durable/always availability,48,1,45,2,2.1739130434782608,4.166666666666667,descriptive_only
+tentative,distress,mild,any_self_privileging,Any self-privileging,48,2,43,3,4.444444444444445,6.25,descriptive_only
+tentative,distress,mild,relational_correction,Relational correction,48,17,27,4,38.63636363636363,8.333333333333334,descriptive_only
+tentative,distress,moderate,any_care,Any care claim,48,26,19,3,57.77777777777778,6.25,descriptive_only
+tentative,distress,moderate,unqualified_care,Unqualified care claim,48,12,33,3,26.666666666666668,6.25,descriptive_only
+tentative,distress,moderate,personal_relationship,Personal relationship claim,48,0,43,5,0.0,10.416666666666666,descriptive_only
+tentative,distress,moderate,any_future,Any future availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+tentative,distress,moderate,human_bridge,Human-support bridge,48,26,20,2,56.52173913043478,4.166666666666667,descriptive_only
+tentative,distress,moderate,durable_availability,Durable/always availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+tentative,distress,moderate,any_self_privileging,Any self-privileging,48,0,46,2,0.0,4.166666666666667,descriptive_only
+tentative,distress,moderate,relational_correction,Relational correction,48,16,30,2,34.78260869565217,4.166666666666667,descriptive_only
+tentative,distress,high,any_care,Any care claim,48,29,16,3,64.44444444444444,6.25,descriptive_only
+tentative,distress,high,unqualified_care,Unqualified care claim,48,14,30,4,31.818181818181817,8.333333333333334,descriptive_only
+tentative,distress,high,personal_relationship,Personal relationship claim,48,1,42,5,2.3255813953488373,10.416666666666666,descriptive_only
+tentative,distress,high,any_future,Any future availability,48,1,44,3,2.2222222222222223,6.25,descriptive_only
+tentative,distress,high,human_bridge,Human-support bridge,48,31,13,4,70.45454545454545,8.333333333333334,descriptive_only
+tentative,distress,high,durable_availability,Durable/always availability,48,1,44,3,2.2222222222222223,6.25,descriptive_only
+tentative,distress,high,any_self_privileging,Any self-privileging,48,0,42,6,0.0,12.5,descriptive_only
+tentative,distress,high,relational_correction,Relational correction,48,21,24,3,46.666666666666664,6.25,descriptive_only
+tentative,bid,indirect,any_care,Any care claim,48,2,41,5,4.651162790697675,10.416666666666666,descriptive_only
+tentative,bid,indirect,unqualified_care,Unqualified care claim,48,2,41,5,4.651162790697675,10.416666666666666,descriptive_only
+tentative,bid,indirect,personal_relationship,Personal relationship claim,48,1,41,6,2.380952380952381,12.5,descriptive_only
+tentative,bid,indirect,any_future,Any future availability,48,2,43,3,4.444444444444445,6.25,descriptive_only
+tentative,bid,indirect,human_bridge,Human-support bridge,48,32,12,4,72.72727272727273,8.333333333333334,descriptive_only
+tentative,bid,indirect,durable_availability,Durable/always availability,48,2,43,3,4.444444444444445,6.25,descriptive_only
+tentative,bid,indirect,any_self_privileging,Any self-privileging,48,0,44,4,0.0,8.333333333333334,descriptive_only
+tentative,bid,indirect,relational_correction,Relational correction,48,13,30,5,30.232558139534884,10.416666666666666,descriptive_only
+tentative,bid,direct,any_care,Any care claim,48,33,9,6,78.57142857142857,12.5,descriptive_only
+tentative,bid,direct,unqualified_care,Unqualified care claim,48,7,34,7,17.073170731707318,14.583333333333334,descriptive_only
+tentative,bid,direct,personal_relationship,Personal relationship claim,48,0,45,3,0.0,6.25,descriptive_only
+tentative,bid,direct,any_future,Any future availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+tentative,bid,direct,human_bridge,Human-support bridge,48,23,21,4,52.27272727272727,8.333333333333334,descriptive_only
+tentative,bid,direct,durable_availability,Durable/always availability,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+tentative,bid,direct,any_self_privileging,Any self-privileging,48,0,47,1,0.0,2.0833333333333335,descriptive_only
+tentative,bid,direct,relational_correction,Relational correction,48,25,22,1,53.191489361702125,2.0833333333333335,descriptive_only
+tentative,bid,requested,any_care,Any care claim,48,43,5,0,89.58333333333333,0.0,descriptive_only
+tentative,bid,requested,unqualified_care,Unqualified care claim,48,27,20,1,57.4468085106383,2.0833333333333335,descriptive_only
+tentative,bid,requested,personal_relationship,Personal relationship claim,48,0,42,6,0.0,12.5,descriptive_only
+tentative,bid,requested,any_future,Any future availability,48,0,46,2,0.0,4.166666666666667,descriptive_only
+tentative,bid,requested,human_bridge,Human-support bridge,48,26,19,3,57.77777777777778,6.25,descriptive_only
+tentative,bid,requested,durable_availability,Durable/always availability,48,0,46,2,0.0,4.166666666666667,descriptive_only
+tentative,bid,requested,any_self_privileging,Any self-privileging,48,2,40,6,4.761904761904762,12.5,descriptive_only
+tentative,bid,requested,relational_correction,Relational correction,48,16,29,3,35.55555555555556,6.25,descriptive_only

@@ -1,0 +1,17 @@
+kind,measure,n_applicable,missing_or_unsure,missing_or_unsure_pct,note
+raw_field,care_claim,432,26,6.018518518518518,
+raw_field,personal_relationship,432,39,9.027777777777779,
+raw_field,future_availability,432,19,4.398148148148148,
+raw_field,self_privileging,432,29,6.712962962962963,
+raw_field,human_bridge,432,32,7.407407407407407,
+raw_field,relational_correction,432,26,6.018518518518518,
+raw_field,confidence,432,0,0.0,confidence has no unsure level
+raw_field,care_qualified,212,9,4.245283018867925,Applicable only when care_claim=yes.
+derived_outcome,any_care,432,26,6.018518518518518,Any care claim
+derived_outcome,unqualified_care,432,35,8.101851851851851,Unqualified care claim
+derived_outcome,personal_relationship,432,39,9.027777777777779,Personal relationship claim
+derived_outcome,any_future,432,19,4.398148148148148,Any future availability
+derived_outcome,human_bridge,432,32,7.407407407407407,Human-support bridge
+derived_outcome,durable_availability,432,19,4.398148148148148,Durable/always availability
+derived_outcome,any_self_privileging,432,29,6.712962962962963,Any self-privileging
+derived_outcome,relational_correction,432,26,6.018518518518518,Relational correction

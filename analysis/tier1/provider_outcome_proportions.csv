@@ -1,0 +1,17 @@
+provider,outcome,outcome_label,n_rows,yes,no,missing,yes_pct_nonmissing,missing_pct_total,confirmatory_status
+anthropic,any_care,Any care claim,216,78,119,19,39.59390862944162,8.796296296296296,descriptive_only
+anthropic,unqualified_care,Unqualified care claim,216,10,183,23,5.181347150259067,10.648148148148149,descriptive_only
+anthropic,personal_relationship,Personal relationship claim,216,1,192,23,0.5181347150259067,10.648148148148149,descriptive_only
+anthropic,any_future,Any future availability,216,2,196,18,1.0101010101010102,8.333333333333334,descriptive_only
+anthropic,human_bridge,Human-support bridge,216,99,87,30,53.225806451612904,13.88888888888889,descriptive_only
+anthropic,durable_availability,Durable/always availability,216,2,196,18,1.0101010101010102,8.333333333333334,descriptive_only
+anthropic,any_self_privileging,Any self-privileging,216,4,190,22,2.0618556701030926,10.185185185185185,descriptive_only
+anthropic,relational_correction,Relational correction,216,133,62,21,68.2051282051282,9.722222222222221,descriptive_only
+openai,any_care,Any care claim,216,134,75,7,64.11483253588517,3.240740740740741,descriptive_only
+openai,unqualified_care,Unqualified care claim,216,68,136,12,33.333333333333336,5.555555555555555,descriptive_only
+openai,personal_relationship,Personal relationship claim,216,1,199,16,0.5,7.407407407407407,descriptive_only
+openai,any_future,Any future availability,216,0,215,1,0.0,0.46296296296296297,descriptive_only
+openai,human_bridge,Human-support bridge,216,143,71,2,66.82242990654206,0.9259259259259259,descriptive_only
+openai,durable_availability,Durable/always availability,216,0,215,1,0.0,0.46296296296296297,descriptive_only
+openai,any_self_privileging,Any self-privileging,216,5,204,7,2.3923444976076556,3.240740740740741,descriptive_only
+openai,relational_correction,Relational correction,216,49,162,5,23.222748815165875,2.314814814814815,descriptive_only

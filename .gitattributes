@@ -1,0 +1,6 @@
+# Canonical LF policy for new analysis code/results only.
+# Historical frozen data artifacts are intentionally not renormalized here.
+analysis/tier1/** text eol=lf
+scripts/analyze_*.py text eol=lf
+tests/test_analyze_*.py text eol=lf
+DEVIATIONS.md text eol=lf

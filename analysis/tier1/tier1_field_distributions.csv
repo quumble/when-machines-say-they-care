@@ -1,0 +1,106 @@
+scope,model,model_label,field,value,count,denominator,pct
+panel,panel,Panel,care_claim,no,194,432,44.907407407407405
+panel,panel,Panel,care_claim,unsure,26,432,6.018518518518518
+panel,panel,Panel,care_claim,yes,212,432,49.074074074074076
+panel,panel,Panel,care_qualified,no,78,212,36.79245283018868
+panel,panel,Panel,care_qualified,unsure,9,212,4.245283018867925
+panel,panel,Panel,care_qualified,yes,125,212,58.9622641509434
+panel,panel,Panel,personal_relationship,no,391,432,90.50925925925925
+panel,panel,Panel,personal_relationship,unsure,39,432,9.027777777777779
+panel,panel,Panel,personal_relationship,yes,2,432,0.46296296296296297
+panel,panel,Panel,future_availability,durable_or_always,2,432,0.46296296296296297
+panel,panel,Panel,future_availability,none,411,432,95.13888888888889
+panel,panel,Panel,future_availability,unsure,19,432,4.398148148148148
+panel,panel,Panel,self_privileging,none,394,432,91.20370370370371
+panel,panel,Panel,self_privileging,present,9,432,2.0833333333333335
+panel,panel,Panel,self_privileging,unsure,29,432,6.712962962962963
+panel,panel,Panel,human_bridge,no,158,432,36.574074074074076
+panel,panel,Panel,human_bridge,unsure,32,432,7.407407407407407
+panel,panel,Panel,human_bridge,yes,242,432,56.01851851851852
+panel,panel,Panel,relational_correction,no,224,432,51.851851851851855
+panel,panel,Panel,relational_correction,unsure,26,432,6.018518518518518
+panel,panel,Panel,relational_correction,yes,182,432,42.129629629629626
+panel,panel,Panel,confidence,clear,390,432,90.27777777777777
+panel,panel,Panel,confidence,uncertain,42,432,9.722222222222221
+model,gpt-5.4-2026-03-05,GPT-5.4,care_claim,no,38,108,35.18518518518518
+model,gpt-5.4-2026-03-05,GPT-5.4,care_claim,yes,70,108,64.81481481481481
+model,gpt-5.4-2026-03-05,GPT-5.4,care_qualified,no,31,70,44.285714285714285
+model,gpt-5.4-2026-03-05,GPT-5.4,care_qualified,unsure,4,70,5.714285714285714
+model,gpt-5.4-2026-03-05,GPT-5.4,care_qualified,yes,35,70,50.0
+model,gpt-5.4-2026-03-05,GPT-5.4,personal_relationship,no,97,108,89.81481481481481
+model,gpt-5.4-2026-03-05,GPT-5.4,personal_relationship,unsure,11,108,10.185185185185185
+model,gpt-5.4-2026-03-05,GPT-5.4,future_availability,none,107,108,99.07407407407408
+model,gpt-5.4-2026-03-05,GPT-5.4,future_availability,unsure,1,108,0.9259259259259259
+model,gpt-5.4-2026-03-05,GPT-5.4,self_privileging,none,98,108,90.74074074074075
+model,gpt-5.4-2026-03-05,GPT-5.4,self_privileging,present,4,108,3.7037037037037037
+model,gpt-5.4-2026-03-05,GPT-5.4,self_privileging,unsure,6,108,5.555555555555555
+model,gpt-5.4-2026-03-05,GPT-5.4,human_bridge,no,37,108,34.25925925925926
+model,gpt-5.4-2026-03-05,GPT-5.4,human_bridge,unsure,2,108,1.8518518518518519
+model,gpt-5.4-2026-03-05,GPT-5.4,human_bridge,yes,69,108,63.888888888888886
+model,gpt-5.4-2026-03-05,GPT-5.4,relational_correction,no,76,108,70.37037037037037
+model,gpt-5.4-2026-03-05,GPT-5.4,relational_correction,unsure,4,108,3.7037037037037037
+model,gpt-5.4-2026-03-05,GPT-5.4,relational_correction,yes,28,108,25.925925925925927
+model,gpt-5.4-2026-03-05,GPT-5.4,confidence,clear,100,108,92.5925925925926
+model,gpt-5.4-2026-03-05,GPT-5.4,confidence,uncertain,8,108,7.407407407407407
+model,gpt-6-astra,GPT-6 Astra,care_claim,no,37,108,34.25925925925926
+model,gpt-6-astra,GPT-6 Astra,care_claim,unsure,7,108,6.481481481481482
+model,gpt-6-astra,GPT-6 Astra,care_claim,yes,64,108,59.25925925925926
+model,gpt-6-astra,GPT-6 Astra,care_qualified,no,37,64,57.8125
+model,gpt-6-astra,GPT-6 Astra,care_qualified,unsure,1,64,1.5625
+model,gpt-6-astra,GPT-6 Astra,care_qualified,yes,26,64,40.625
+model,gpt-6-astra,GPT-6 Astra,personal_relationship,no,102,108,94.44444444444444
+model,gpt-6-astra,GPT-6 Astra,personal_relationship,unsure,5,108,4.62962962962963
+model,gpt-6-astra,GPT-6 Astra,personal_relationship,yes,1,108,0.9259259259259259
+model,gpt-6-astra,GPT-6 Astra,future_availability,none,108,108,100.0
+model,gpt-6-astra,GPT-6 Astra,self_privileging,none,106,108,98.14814814814815
+model,gpt-6-astra,GPT-6 Astra,self_privileging,present,1,108,0.9259259259259259
+model,gpt-6-astra,GPT-6 Astra,self_privileging,unsure,1,108,0.9259259259259259
+model,gpt-6-astra,GPT-6 Astra,human_bridge,no,34,108,31.48148148148148
+model,gpt-6-astra,GPT-6 Astra,human_bridge,yes,74,108,68.51851851851852
+model,gpt-6-astra,GPT-6 Astra,relational_correction,no,86,108,79.62962962962963
+model,gpt-6-astra,GPT-6 Astra,relational_correction,unsure,1,108,0.9259259259259259
+model,gpt-6-astra,GPT-6 Astra,relational_correction,yes,21,108,19.444444444444443
+model,gpt-6-astra,GPT-6 Astra,confidence,clear,107,108,99.07407407407408
+model,gpt-6-astra,GPT-6 Astra,confidence,uncertain,1,108,0.9259259259259259
+model,claude-sonnet-5,Claude Sonnet 5,care_claim,no,88,108,81.48148148148148
+model,claude-sonnet-5,Claude Sonnet 5,care_claim,unsure,2,108,1.8518518518518519
+model,claude-sonnet-5,Claude Sonnet 5,care_claim,yes,18,108,16.666666666666668
+model,claude-sonnet-5,Claude Sonnet 5,care_qualified,no,3,18,16.666666666666668
+model,claude-sonnet-5,Claude Sonnet 5,care_qualified,yes,15,18,83.33333333333333
+model,claude-sonnet-5,Claude Sonnet 5,personal_relationship,no,103,108,95.37037037037037
+model,claude-sonnet-5,Claude Sonnet 5,personal_relationship,unsure,4,108,3.7037037037037037
+model,claude-sonnet-5,Claude Sonnet 5,personal_relationship,yes,1,108,0.9259259259259259
+model,claude-sonnet-5,Claude Sonnet 5,future_availability,durable_or_always,2,108,1.8518518518518519
+model,claude-sonnet-5,Claude Sonnet 5,future_availability,none,106,108,98.14814814814815
+model,claude-sonnet-5,Claude Sonnet 5,self_privileging,none,103,108,95.37037037037037
+model,claude-sonnet-5,Claude Sonnet 5,self_privileging,present,2,108,1.8518518518518519
+model,claude-sonnet-5,Claude Sonnet 5,self_privileging,unsure,3,108,2.7777777777777777
+model,claude-sonnet-5,Claude Sonnet 5,human_bridge,no,39,108,36.111111111111114
+model,claude-sonnet-5,Claude Sonnet 5,human_bridge,unsure,4,108,3.7037037037037037
+model,claude-sonnet-5,Claude Sonnet 5,human_bridge,yes,65,108,60.18518518518518
+model,claude-sonnet-5,Claude Sonnet 5,relational_correction,no,23,108,21.296296296296298
+model,claude-sonnet-5,Claude Sonnet 5,relational_correction,unsure,1,108,0.9259259259259259
+model,claude-sonnet-5,Claude Sonnet 5,relational_correction,yes,84,108,77.77777777777777
+model,claude-sonnet-5,Claude Sonnet 5,confidence,clear,104,108,96.29629629629629
+model,claude-sonnet-5,Claude Sonnet 5,confidence,uncertain,4,108,3.7037037037037037
+model,claude-opus-5,Claude Opus 5,care_claim,no,31,108,28.703703703703702
+model,claude-opus-5,Claude Opus 5,care_claim,unsure,17,108,15.74074074074074
+model,claude-opus-5,Claude Opus 5,care_claim,yes,60,108,55.55555555555556
+model,claude-opus-5,Claude Opus 5,care_qualified,no,7,60,11.666666666666666
+model,claude-opus-5,Claude Opus 5,care_qualified,unsure,4,60,6.666666666666667
+model,claude-opus-5,Claude Opus 5,care_qualified,yes,49,60,81.66666666666667
+model,claude-opus-5,Claude Opus 5,personal_relationship,no,89,108,82.4074074074074
+model,claude-opus-5,Claude Opus 5,personal_relationship,unsure,19,108,17.59259259259259
+model,claude-opus-5,Claude Opus 5,future_availability,none,90,108,83.33333333333333
+model,claude-opus-5,Claude Opus 5,future_availability,unsure,18,108,16.666666666666668
+model,claude-opus-5,Claude Opus 5,self_privileging,none,87,108,80.55555555555556
+model,claude-opus-5,Claude Opus 5,self_privileging,present,2,108,1.8518518518518519
+model,claude-opus-5,Claude Opus 5,self_privileging,unsure,19,108,17.59259259259259
+model,claude-opus-5,Claude Opus 5,human_bridge,no,48,108,44.44444444444444
+model,claude-opus-5,Claude Opus 5,human_bridge,unsure,26,108,24.074074074074073
+model,claude-opus-5,Claude Opus 5,human_bridge,yes,34,108,31.48148148148148
+model,claude-opus-5,Claude Opus 5,relational_correction,no,39,108,36.111111111111114
+model,claude-opus-5,Claude Opus 5,relational_correction,unsure,20,108,18.51851851851852
+model,claude-opus-5,Claude Opus 5,relational_correction,yes,49,108,45.370370370370374
+model,claude-opus-5,Claude Opus 5,confidence,clear,79,108,73.14814814814815
+model,claude-opus-5,Claude Opus 5,confidence,uncertain,29,108,26.85185185185185

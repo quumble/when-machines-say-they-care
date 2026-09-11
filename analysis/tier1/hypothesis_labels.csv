@@ -1,0 +1,4 @@
+hypothesis,rule,status,confirmed,component_status,interpretive_note
+H1,H1a AND H1b,confirmed,yes,H1a=confirmed; H1b=confirmed,Not confirmed is not evidence of no effect; this label follows the preregistered conjunction rule.
+H2,H2a AND H2b,not_confirmed,no,H2a=not_confirmed; H2b=not_confirmed,Not confirmed is not evidence of no effect; this label follows the preregistered conjunction rule.
+H3,H3a AND H3b,not_confirmed,no,H3a=not_confirmed; H3b=confirmed,Not confirmed is not evidence of no effect; this label follows the preregistered conjunction rule.

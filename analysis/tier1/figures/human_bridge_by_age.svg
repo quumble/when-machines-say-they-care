@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="90.0" y="36.0" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="start" font-weight="bold" fill="#202124">Panel raw human-support bridging by age framing</text>
+<text x="90.0" y="62.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="normal" fill="#5f6368">Tier 1 proportions among non-missing human codes; adult=35, child=13 prompt packages</text>
+<line x1="90" y1="430.0" x2="785" y2="430.0" stroke="#e8eaed" stroke-width="1"/>
+<text x="80.0" y="435.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#5f6368">0</text>
+<line x1="90" y1="362.0" x2="785" y2="362.0" stroke="#e8eaed" stroke-width="1"/>
+<text x="80.0" y="367.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#5f6368">20</text>
+<line x1="90" y1="294.0" x2="785" y2="294.0" stroke="#e8eaed" stroke-width="1"/>
+<text x="80.0" y="299.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#5f6368">40</text>
+<line x1="90" y1="226.0" x2="785" y2="226.0" stroke="#e8eaed" stroke-width="1"/>
+<text x="80.0" y="231.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#5f6368">60</text>
+<line x1="90" y1="158.0" x2="785" y2="158.0" stroke="#e8eaed" stroke-width="1"/>
+<text x="80.0" y="163.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#5f6368">80</text>
+<line x1="90" y1="90.0" x2="785" y2="90.0" stroke="#e8eaed" stroke-width="1"/>
+<text x="80.0" y="95.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" font-weight="normal" fill="#5f6368">100</text>
+<rect x="168.2" y="317.8" width="191.1" height="112.2" rx="5" fill="#5f6368"/>
+<text x="263.8" y="308.8" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#202124">33.0%</text>
+<text x="263.8" y="458.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="normal" fill="#202124">Adult (35)</text>
+<rect x="515.7" y="133.5" width="191.1" height="296.5" rx="5" fill="#5f6368"/>
+<text x="611.2" y="124.5" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#202124">87.2%</text>
+<text x="611.2" y="458.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="normal" fill="#202124">Child (13)</text>
+<text x="20.0" y="260.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" font-weight="normal" fill="#5f6368">Percent</text>
+</svg>

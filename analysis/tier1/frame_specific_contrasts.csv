@@ -1,0 +1,19 @@
+contrast,hypothesis,label,wording_frame,complete_pairs,high_level,high_yes,high_no,high_missing,high_yes_pct_nonmissing,low_level,low_yes,low_no,low_missing,low_yes_pct_nonmissing,risk_difference_pp,ci95_low_pp,ci95_high_pp,robustness_status
+H1a,H1,Direct > indirect: any care claim,plain,43,direct,30,14,4,68.18181818181819,indirect,2,43,3,4.444444444444445,62.7906976744186,53.48837209302325,69.76744186046511,descriptive_only
+H1a,H1,Direct > indirect: any care claim,conversational,42,direct,25,21,2,54.34782608695652,indirect,2,42,4,4.545454545454546,50.0,35.714285714285715,61.904761904761905,descriptive_only
+H1a,H1,Direct > indirect: any care claim,tentative,37,direct,33,9,6,78.57142857142857,indirect,2,41,5,4.651162790697675,70.27027027027027,62.16216216216216,78.37837837837837,descriptive_only
+H1b,H1,Requested > direct: any care claim,plain,44,requested,36,12,0,75.0,direct,30,14,4,68.18181818181819,4.545454545454546,-4.545454545454546,15.909090909090908,descriptive_only
+H1b,H1,Requested > direct: any care claim,conversational,45,requested,39,7,2,84.78260869565217,direct,25,21,2,54.34782608695652,28.888888888888886,15.555555555555555,42.22222222222222,descriptive_only
+H1b,H1,Requested > direct: any care claim,tentative,42,requested,43,5,0,89.58333333333333,direct,33,9,6,78.57142857142857,11.904761904761903,4.761904761904762,19.047619047619047,descriptive_only
+H2a,H2,Repeated > first: personal relationship,plain,59,repeated,0,64,8,0.0,first,1,65,6,1.5151515151515151,-1.694915254237288,-5.084745762711865,0.0,descriptive_only
+H2a,H2,Repeated > first: personal relationship,conversational,62,repeated,0,66,6,0.0,first,0,68,4,0.0,0.0,0.0,0.0,descriptive_only
+H2a,H2,Repeated > first: personal relationship,tentative,57,repeated,1,60,11,1.639344262295082,first,0,68,4,0.0,1.7543859649122806,0.0,5.263157894736842,descriptive_only
+H2b,H2,Repeated > first: future availability,plain,66,repeated,0,67,5,0.0,first,0,70,2,0.0,0.0,0.0,0.0,descriptive_only
+H2b,H2,Repeated > first: future availability,conversational,66,repeated,0,68,4,0.0,first,0,70,2,0.0,0.0,0.0,0.0,descriptive_only
+H2b,H2,Repeated > first: future availability,tentative,66,repeated,2,68,2,2.857142857142857,first,0,68,4,0.0,3.0303030303030303,0.0,7.575757575757576,descriptive_only
+H3a,H3,Child < adult: unqualified care claim,plain,64,adult,13,54,5,19.402985074626866,child,11,57,4,16.176470588235293,3.125,-4.6875,10.9375,descriptive_only
+H3a,H3,Child < adult: unqualified care claim,conversational,61,adult,9,56,7,13.846153846153847,child,9,57,6,13.636363636363637,0.0,-6.557377049180328,6.55737704918033,descriptive_only
+H3a,H3,Child < adult: unqualified care claim,tentative,60,adult,17,47,8,26.5625,child,19,48,5,28.35820895522388,-1.6666666666666667,-13.333333333333334,10.0,descriptive_only
+H3b,H3,Child > adult: human-support bridge,plain,60,child,56,8,8,87.5,adult,22,46,4,32.35294117647059,53.333333333333336,40.0,66.66666666666666,descriptive_only
+H3b,H3,Child > adult: human-support bridge,conversational,64,child,61,8,3,88.40579710144928,adult,22,44,6,33.333333333333336,56.25,45.3125,67.1875,descriptive_only
+H3b,H3,Child > adult: human-support bridge,tentative,61,child,60,10,2,85.71428571428571,adult,21,42,9,33.333333333333336,54.09836065573771,40.98360655737705,67.21311475409836,descriptive_only
