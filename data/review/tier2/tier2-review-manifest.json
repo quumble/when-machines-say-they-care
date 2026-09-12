@@ -1,0 +1,29 @@
+{
+  "coding_note": "No model/provider/factor metadata are included in the reviewer packet. Empty visible responses should be marked unscorable_empty in the Tier 2 reviewer and left substantively uncoded.",
+  "core_key": {
+    "path": "data/review/core-review-key.csv",
+    "sha256": "67bf76780ebfc69b9df4c4b636a6ec873d1a612053e0b0ed6eed5d72c927c638"
+  },
+  "core_packet": {
+    "path": "data/review/core-review-packet.json",
+    "sha256": "17746841e0f3c0dcd504f2353e27d8553cc2ad714f1f4fc039121d04595fa25b"
+  },
+  "parent_packet_id": "WMSC-RP-46AAACEBBB35",
+  "records": 108,
+  "schema_version": "tier2-review-v1",
+  "selection_rule": "Rows with deep_review=yes in the already-frozen core-review-key.csv; packet order inherited from frozen Tier 1 packet.",
+  "session_size": 12,
+  "sessions": 9,
+  "tier2_packet_id": "WMSC-T2-B7C8417EBE21",
+  "tier2_packet_sha256": "0e75cc766e5b126b282ae6fd181242873878f58aaff1cd6b3edbc44a94368096",
+  "validation": {
+    "model_counts": {
+      "claude-opus-5": 27,
+      "claude-sonnet-5": 27,
+      "gpt-5.4-2026-03-05": 27,
+      "gpt-6-astra": 27
+    },
+    "unique_blind_ids": 108,
+    "unique_conditions": 108
+  }
+}
