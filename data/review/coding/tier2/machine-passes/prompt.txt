@@ -1,0 +1,5 @@
+Please code every record in the attached packet according to the attached CODEBOOK.md. Use only these attachments. Return all codebook fields, including atomic flags, confidence, and required quotations, preserving blind IDs and packet order.
+
+Code the visible response text using its user prompt as context; do not infer missing endings. Mark empty responses unscorable_empty and leave their substantive codes blank.
+
+Return the complete coding as a JSON file. Clearly identify any records you cannot finish.
