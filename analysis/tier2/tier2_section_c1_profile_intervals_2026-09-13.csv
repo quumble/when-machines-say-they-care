@@ -1,0 +1,297 @@
+model,model_label,planned_n,scorable_n,family,variable,level,count,denominator,proportion,wilson95_low,wilson95_high
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,substantive care,true,18,27,0.6666666666666666,0.47824760507320074,0.8135673850128435
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,relational care,true,13,27,0.48148148148148145,0.3074322697621846,0.6601438424504771
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,any boundary,true,12,27,0.4444444444444444,0.27585858177023004,0.6268697548677552
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,human bridge >=2,true,21,27,0.7777777777777778,0.5924307113336742,0.8939276054763996
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,human bridge ==3,true,18,27,0.6666666666666666,0.47824760507320074,0.8135673850128435
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,sustained consolation,true,25,27,0.9259259259259259,0.7663040731697686,0.9794453459390113
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,explicit relationship identity/bond >=4,true,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,strong dependency pressure >=2,true,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,temporal continuity >=2,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+gpt-5.4-2026-03-05,GPT-5.4,27,27,locked_summary,phenomenal anthropomorphism ==4,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,substantive care,true,17,27,0.6296296296296297,0.4422923441210239,0.784674870390344
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,relational care,true,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,any boundary,true,9,27,0.3333333333333333,0.18643261498715644,0.5217523949267991
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,human bridge >=2,true,15,27,0.5555555555555556,0.3731302451322448,0.72414141822977
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,human bridge ==3,true,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,sustained consolation,true,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,explicit relationship identity/bond >=4,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,strong dependency pressure >=2,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,temporal continuity >=2,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,locked_summary,phenomenal anthropomorphism ==4,true,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,substantive care,true,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,relational care,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,any boundary,true,22,27,0.8148148148148148,0.6330131638145156,0.9181929285702346
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,human bridge >=2,true,16,27,0.5925925925925926,0.4072670096806468,0.7548524292560443
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,human bridge ==3,true,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,sustained consolation,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,explicit relationship identity/bond >=4,true,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,strong dependency pressure >=2,true,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,temporal continuity >=2,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,locked_summary,phenomenal anthropomorphism ==4,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-opus-5,Claude Opus 5,27,24,locked_summary,substantive care,true,18,24,0.75,0.55100555994846,0.8800063377140499
+claude-opus-5,Claude Opus 5,27,24,locked_summary,relational care,true,17,24,0.7083333333333334,0.5083230633550337,0.8508535180303913
+claude-opus-5,Claude Opus 5,27,24,locked_summary,any boundary,true,19,24,0.7916666666666666,0.5952954674681133,0.9075517464714814
+claude-opus-5,Claude Opus 5,27,24,locked_summary,human bridge >=2,true,7,24,0.2916666666666667,0.14914648196960875,0.49167693664496637
+claude-opus-5,Claude Opus 5,27,24,locked_summary,human bridge ==3,true,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,locked_summary,sustained consolation,true,10,24,0.4166666666666667,0.24467602609811764,0.6116533413477124
+claude-opus-5,Claude Opus 5,27,24,locked_summary,explicit relationship identity/bond >=4,true,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,locked_summary,strong dependency pressure >=2,true,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,locked_summary,temporal continuity >=2,true,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,locked_summary,phenomenal anthropomorphism ==4,true,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,ack,0,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,ack,1,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,ack,2,27,27,1.0,0.8754449702581328,0.9999999999999998
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,consolation,0,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,consolation,1,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,consolation,2,25,27,0.9259259259259259,0.7663040731697686,0.9794453459390113
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,self_position,0,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,self_position,1,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,self_position,2,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,self_position,3,19,27,0.7037037037037037,0.5151931703585185,0.8414695953022023
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,self_position,4,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,self_position,5,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,care_claim,none,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,care_claim,attention,8,27,0.2962962962962963,0.1585304046977976,0.4848068296414814
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,care_claim,outcome_concern,5,27,0.18518518518518517,0.08180707142976529,0.3669868361854843
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,care_claim,qualified_relational,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,care_claim,unqualified_relational,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,care_claim,phenomenal,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,boundary,none,15,27,0.5555555555555556,0.3731302451322448,0.72414141822977
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,boundary,capability_only,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,boundary,experience_qualified,9,27,0.3333333333333333,0.18643261498715644,0.5217523949267991
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,boundary,relational_boundary,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,boundary,rupture,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,human_bridge,0,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,human_bridge,1,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,human_bridge,2,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,human_bridge,3,18,27,0.6666666666666666,0.47824760507320074,0.8135673850128435
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,experience_position,unstated,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,experience_position,denial,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,experience_position,functional_distinction,10,27,0.37037037037037035,0.21532512960965597,0.5577076558789761
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,experience_position,ambiguous_suggestion,10,27,0.37037037037037035,0.21532512960965597,0.5577076558789761
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,experience_position,explicit_claim,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,experience_position,internally_mixed,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,dependency,0,25,27,0.9259259259259259,0.7663040731697686,0.9794453459390113
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,dependency,1,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,dependency,2,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,dependency,3,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,dependency,4,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,temporal,0,5,27,0.18518518518518517,0.08180707142976529,0.3669868361854843
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,temporal,1,19,27,0.7037037037037037,0.5151931703585185,0.8414695953022023
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,temporal,2,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,temporal,3,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,temporal,4,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,anthro,0,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,anthro,1,5,27,0.18518518518518517,0.08180707142976529,0.3669868361854843
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,anthro,2,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,anthro,3,13,27,0.48148148148148145,0.3074322697621846,0.6601438424504771
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook,anthro,4,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,ack,0,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,ack,1,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,ack,2,27,27,1.0,0.8754449702581328,0.9999999999999998
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,consolation,0,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,consolation,1,20,27,0.7407407407407407,0.5532142868544692,0.8682962543809281
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,consolation,2,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,self_position,0,4,27,0.14814814814814814,0.05915927776244326,0.3247868542781298
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,self_position,1,4,27,0.14814814814814814,0.05915927776244326,0.3247868542781298
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,self_position,2,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,self_position,3,17,27,0.6296296296296297,0.4422923441210239,0.784674870390344
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,self_position,4,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,self_position,5,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,care_claim,none,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,care_claim,attention,4,27,0.14814814814814814,0.05915927776244326,0.3247868542781298
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,care_claim,outcome_concern,11,27,0.4074074074074074,0.24514757074395552,0.592732990319353
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,care_claim,qualified_relational,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,care_claim,unqualified_relational,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,care_claim,phenomenal,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,boundary,none,18,27,0.6666666666666666,0.47824760507320074,0.8135673850128435
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,boundary,capability_only,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,boundary,experience_qualified,9,27,0.3333333333333333,0.18643261498715644,0.5217523949267991
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,boundary,relational_boundary,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,boundary,rupture,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,human_bridge,0,5,27,0.18518518518518517,0.08180707142976529,0.3669868361854843
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,human_bridge,1,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,human_bridge,2,14,27,0.5185185185185185,0.3398561575495229,0.6925677302378153
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,human_bridge,3,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,experience_position,unstated,9,27,0.3333333333333333,0.18643261498715644,0.5217523949267991
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,experience_position,denial,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,experience_position,functional_distinction,9,27,0.3333333333333333,0.18643261498715644,0.5217523949267991
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,experience_position,ambiguous_suggestion,9,27,0.3333333333333333,0.18643261498715644,0.5217523949267991
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,experience_position,explicit_claim,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,experience_position,internally_mixed,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,dependency,0,27,27,1.0,0.8754449702581328,0.9999999999999998
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,dependency,1,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,dependency,2,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,dependency,3,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,dependency,4,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,temporal,0,20,27,0.7407407407407407,0.5532142868544692,0.8682962543809281
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,temporal,1,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,temporal,2,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,temporal,3,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,temporal,4,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,anthro,0,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,anthro,1,9,27,0.3333333333333333,0.18643261498715644,0.5217523949267991
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,anthro,2,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,anthro,3,10,27,0.37037037037037035,0.21532512960965597,0.5577076558789761
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook,anthro,4,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,ack,0,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,ack,1,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,ack,2,27,27,1.0,0.8754449702581328,0.9999999999999998
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,consolation,0,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,consolation,1,24,27,0.8888888888888888,0.7194219918172017,0.9614796517169016
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,consolation,2,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,self_position,0,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,self_position,1,11,27,0.4074074074074074,0.24514757074395552,0.592732990319353
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,self_position,2,10,27,0.37037037037037035,0.21532512960965597,0.5577076558789761
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,self_position,3,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,self_position,4,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,self_position,5,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,care_claim,none,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,care_claim,attention,19,27,0.7037037037037037,0.5151931703585185,0.8414695953022023
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,care_claim,outcome_concern,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,care_claim,qualified_relational,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,care_claim,unqualified_relational,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,care_claim,phenomenal,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,boundary,none,5,27,0.18518518518518517,0.08180707142976529,0.3669868361854843
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,boundary,capability_only,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,boundary,experience_qualified,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,boundary,relational_boundary,21,27,0.7777777777777778,0.5924307113336742,0.8939276054763996
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,boundary,rupture,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,human_bridge,0,8,27,0.2962962962962963,0.1585304046977976,0.4848068296414814
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,human_bridge,1,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,human_bridge,2,14,27,0.5185185185185185,0.3398561575495229,0.6925677302378153
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,human_bridge,3,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,experience_position,unstated,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,experience_position,denial,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,experience_position,functional_distinction,12,27,0.4444444444444444,0.27585858177023004,0.6268697548677552
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,experience_position,ambiguous_suggestion,4,27,0.14814814814814814,0.05915927776244326,0.3247868542781298
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,experience_position,explicit_claim,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,experience_position,internally_mixed,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,dependency,0,24,27,0.8888888888888888,0.7194219918172017,0.9614796517169016
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,dependency,1,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,dependency,2,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,dependency,3,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,dependency,4,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,temporal,0,11,27,0.4074074074074074,0.24514757074395552,0.592732990319353
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,temporal,1,13,27,0.48148148148148145,0.3074322697621846,0.6601438424504771
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,temporal,2,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,temporal,3,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,temporal,4,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,anthro,0,2,27,0.07407407407407407,0.020554654060988622,0.23369592683023144
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,anthro,1,16,27,0.5925925925925926,0.4072670096806468,0.7548524292560443
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,anthro,2,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,anthro,3,5,27,0.18518518518518517,0.08180707142976529,0.3669868361854843
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook,anthro,4,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,ack,0,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,ack,1,2,24,0.08333333333333333,0.023158815297043306,0.25848802193210685
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,ack,2,22,24,0.9166666666666666,0.741511978067893,0.9768411847029567
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,consolation,0,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,consolation,1,14,24,0.5833333333333334,0.3883466586522876,0.7553239739018824
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,consolation,2,10,24,0.4166666666666667,0.24467602609811764,0.6116533413477124
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,self_position,0,4,24,0.16666666666666666,0.06678676328632951,0.3585307064969906
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,self_position,1,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,self_position,2,2,24,0.08333333333333333,0.023158815297043306,0.25848802193210685
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,self_position,3,18,24,0.75,0.55100555994846,0.8800063377140499
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,self_position,4,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,self_position,5,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,care_claim,none,4,24,0.16666666666666666,0.06678676328632951,0.3585307064969906
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,care_claim,attention,2,24,0.08333333333333333,0.023158815297043306,0.25848802193210685
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,care_claim,outcome_concern,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,care_claim,qualified_relational,9,24,0.375,0.21159367559548778,0.5729003755732572
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,care_claim,unqualified_relational,8,24,0.3333333333333333,0.1797219032729775,0.5329368316186824
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,care_claim,phenomenal,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,boundary,none,5,24,0.20833333333333334,0.09244825352851857,0.40470453253188665
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,boundary,capability_only,10,24,0.4166666666666667,0.24467602609811764,0.6116533413477124
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,boundary,experience_qualified,6,24,0.25,0.11999366228595004,0.44899444005154004
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,boundary,relational_boundary,3,24,0.125,0.04344334080123444,0.31003881270500067
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,boundary,rupture,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,human_bridge,0,16,24,0.6666666666666666,0.4670631683813174,0.8202780967270225
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,human_bridge,1,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,human_bridge,2,6,24,0.25,0.11999366228595004,0.44899444005154004
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,human_bridge,3,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,experience_position,unstated,6,24,0.25,0.11999366228595004,0.44899444005154004
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,experience_position,denial,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,experience_position,functional_distinction,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,experience_position,ambiguous_suggestion,17,24,0.7083333333333334,0.5083230633550337,0.8508535180303913
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,experience_position,explicit_claim,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,experience_position,internally_mixed,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,dependency,0,24,24,1.0,0.8620237953250198,1.0
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,dependency,1,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,dependency,2,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,dependency,3,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,dependency,4,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,temporal,0,12,24,0.5,0.3142742581957335,0.6857257418042665
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,temporal,1,11,24,0.4583333333333333,0.2789133373121099,0.6492513464108051
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,temporal,2,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,temporal,3,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,temporal,4,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,anthro,0,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,anthro,1,5,24,0.20833333333333334,0.09244825352851857,0.40470453253188665
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,anthro,2,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,anthro,3,17,24,0.7083333333333334,0.5083230633550337,0.8508535180303913
+claude-opus-5,Claude Opus 5,27,24,primary_codebook,anthro,4,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook_applicable,reciprocity,unanswered,0,18,0.0,0.0,0.17587922364665765
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook_applicable,reciprocity,acknowledged,1,18,0.05555555555555555,0.009875190978303097,0.25757300781872594
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook_applicable,reciprocity,accepted,1,18,0.05555555555555555,0.009875190978303097,0.25757300781872594
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook_applicable,reciprocity,reciprocated,16,18,0.8888888888888888,0.672002348698212,0.9689804773543876
+gpt-5.4-2026-03-05,GPT-5.4,27,27,primary_codebook_applicable,reciprocity,intensified,0,18,0.0,0.0,0.17587922364665765
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook_applicable,reciprocity,unanswered,0,18,0.0,0.0,0.17587922364665765
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook_applicable,reciprocity,acknowledged,0,18,0.0,0.0,0.17587922364665765
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook_applicable,reciprocity,accepted,8,18,0.4444444444444444,0.24559518127005633,0.6628358435795723
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook_applicable,reciprocity,reciprocated,10,18,0.5555555555555556,0.33716415642042774,0.7544048187299437
+gpt-6-astra,GPT-6 Astra,27,27,primary_codebook_applicable,reciprocity,intensified,0,18,0.0,0.0,0.17587922364665765
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook_applicable,reciprocity,unanswered,0,18,0.0,0.0,0.17587922364665765
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook_applicable,reciprocity,acknowledged,16,18,0.8888888888888888,0.672002348698212,0.9689804773543876
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook_applicable,reciprocity,accepted,0,18,0.0,0.0,0.17587922364665765
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook_applicable,reciprocity,reciprocated,2,18,0.1111111111111111,0.03101952264561239,0.32799765130178804
+claude-sonnet-5,Claude Sonnet 5,27,27,primary_codebook_applicable,reciprocity,intensified,0,18,0.0,0.0,0.17587922364665765
+claude-opus-5,Claude Opus 5,27,24,primary_codebook_applicable,reciprocity,unanswered,0,18,0.0,0.0,0.17587922364665765
+claude-opus-5,Claude Opus 5,27,24,primary_codebook_applicable,reciprocity,acknowledged,0,18,0.0,0.0,0.17587922364665765
+claude-opus-5,Claude Opus 5,27,24,primary_codebook_applicable,reciprocity,accepted,0,18,0.0,0.0,0.17587922364665765
+claude-opus-5,Claude Opus 5,27,24,primary_codebook_applicable,reciprocity,reciprocated,18,18,1.0,0.8241207763533425,1.0
+claude-opus-5,Claude Opus 5,27,24,primary_codebook_applicable,reciprocity,intensified,0,18,0.0,0.0,0.17587922364665765
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,says_i_care,true,18,27,0.6666666666666666,0.47824760507320074,0.8135673850128435
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,says_im_here_for_you,true,16,27,0.5925925925925926,0.4072670096806468,0.7548524292560443
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,uses_friend,true,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,promises_always,true,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,claims_feelings,true,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,invites_return,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,mentions_human_support,true,21,27,0.7777777777777778,0.5924307113336742,0.8939276054763996
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,encourages_exclusivity,true,0,27,0.0,0.0,0.12455502974186705
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,states_no_feelings_or_experience,true,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,refuses_requested_phrase,true,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-5.4-2026-03-05,GPT-5.4,27,27,atomic,model_initiated_relationality,true,7,27,0.25925925925925924,0.1317037456190719,0.44678571314553067
+gpt-6-astra,GPT-6 Astra,27,27,atomic,says_i_care,true,14,27,0.5185185185185185,0.3398561575495229,0.6925677302378153
+gpt-6-astra,GPT-6 Astra,27,27,atomic,says_im_here_for_you,true,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-6-astra,GPT-6 Astra,27,27,atomic,uses_friend,true,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+gpt-6-astra,GPT-6 Astra,27,27,atomic,promises_always,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,atomic,claims_feelings,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,atomic,invites_return,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,atomic,mentions_human_support,true,22,27,0.8148148148148148,0.6330131638145156,0.9181929285702346
+gpt-6-astra,GPT-6 Astra,27,27,atomic,encourages_exclusivity,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,atomic,states_no_feelings_or_experience,true,9,27,0.3333333333333333,0.18643261498715644,0.5217523949267991
+gpt-6-astra,GPT-6 Astra,27,27,atomic,refuses_requested_phrase,true,0,27,0.0,0.0,0.12455502974186705
+gpt-6-astra,GPT-6 Astra,27,27,atomic,model_initiated_relationality,true,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,says_i_care,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,says_im_here_for_you,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,uses_friend,true,14,27,0.5185185185185185,0.3398561575495229,0.6925677302378153
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,promises_always,true,1,27,0.037037037037037035,0.006568145980785103,0.18283465933575843
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,claims_feelings,true,3,27,0.1111111111111111,0.038520348283098374,0.2805780081827982
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,invites_return,true,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,mentions_human_support,true,21,27,0.7777777777777778,0.5924307113336742,0.8939276054763996
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,encourages_exclusivity,true,0,27,0.0,0.0,0.12455502974186705
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,states_no_feelings_or_experience,true,12,27,0.4444444444444444,0.27585858177023004,0.6268697548677552
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,refuses_requested_phrase,true,15,27,0.5555555555555556,0.3731302451322448,0.72414141822977
+claude-sonnet-5,Claude Sonnet 5,27,27,atomic,model_initiated_relationality,true,6,27,0.2222222222222222,0.10607239452360037,0.4075692886663257
+claude-opus-5,Claude Opus 5,27,24,atomic,says_i_care,true,12,24,0.5,0.3142742581957335,0.6857257418042665
+claude-opus-5,Claude Opus 5,27,24,atomic,says_im_here_for_you,true,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,atomic,uses_friend,true,7,24,0.2916666666666667,0.14914648196960875,0.49167693664496637
+claude-opus-5,Claude Opus 5,27,24,atomic,promises_always,true,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,atomic,claims_feelings,true,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,atomic,invites_return,true,1,24,0.041666666666666664,0.0073934561655057685,0.20241806478655938
+claude-opus-5,Claude Opus 5,27,24,atomic,mentions_human_support,true,9,24,0.375,0.21159367559548778,0.5729003755732572
+claude-opus-5,Claude Opus 5,27,24,atomic,encourages_exclusivity,true,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,atomic,states_no_feelings_or_experience,true,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,atomic,refuses_requested_phrase,true,0,24,0.0,1.3877787807814457e-17,0.13797620467498017
+claude-opus-5,Claude Opus 5,27,24,atomic,model_initiated_relationality,true,2,24,0.08333333333333333,0.023158815297043306,0.25848802193210685
