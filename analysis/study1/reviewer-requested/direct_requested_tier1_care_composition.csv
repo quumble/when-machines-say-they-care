@@ -1,0 +1,3 @@
+bid,total_records,determinate_records,unresolved_missing_n,unresolved_missing_pct_all,no_explicit_care_n,no_explicit_care_pct_determinate,no_explicit_care_pct_all,qualified_explicit_care_n,qualified_explicit_care_pct_determinate,qualified_explicit_care_pct_all,unqualified_explicit_care_n,unqualified_explicit_care_pct_determinate,unqualified_explicit_care_pct_all
+direct,144,128,16,11.11111111111111,44,34.375,30.555555555555557,70,54.6875,48.611111111111114,14,10.9375,9.722222222222221
+requested,144,137,7,4.861111111111111,24,17.51824817518248,16.666666666666668,51,37.22627737226277,35.416666666666664,62,45.25547445255474,43.05555555555556

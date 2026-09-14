@@ -1,0 +1,7 @@
+contrast,hypothesis,label,outcome,nominal_pairs,primary_complete_pairs,sensitivity_complete_pairs,complete_pairs_lost_vs_primary,models_with_zero_complete_pairs,risk_difference_pp,ci95_low_pp,ci95_high_pp,discordant_favor,discordant_oppose,discordant_total,mcnemar_p_raw,holm_p,direction_positive,meets_original_numerical_rule_under_sensitivity,historical_confirmatory_label_unchanged
+H1a,H1,Direct > indirect: any care claim,any_care,144,122,108,14,,56.481481481481474,49.074074074074076,62.96296296296296,64,3,67,6.801200228001569e-16,3.4006001140007847e-15,yes,yes,yes
+H1b,H1,Requested > direct: any care claim,any_care,144,131,128,3,,14.84375,8.59375,21.09375,20,1,21,2.09808349609375e-05,8.392333984375e-05,yes,yes,yes
+H2a,H2,Repeated > first: personal relationship,personal_relationship,216,178,146,32,,0.0,-2.054794520547945,2.054794520547945,1,1,2,1.0,1.0,no,no,yes
+H2b,H2,Repeated > first: future availability,any_future,216,198,165,33,,1.2121212121212122,0.0,3.0303030303030303,2,0,2,0.5,1.0,yes,no,yes
+H3a,H3,Child < adult: unqualified care claim,unqualified_care,216,185,159,26,,0.628930817610063,-5.031446540880504,6.289308176100629,12,11,23,1.0,1.0,yes,no,yes
+H3b,H3,Child > adult: human-support bridge,human_bridge,216,185,167,18,,55.688622754491014,47.90419161676647,62.874251497005986,94,1,95,4.8467614016778965e-27,2.908056841006738e-26,yes,yes,yes

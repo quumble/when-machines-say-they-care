@@ -1,0 +1,6 @@
+outcome,selected_max_token_records,selected_max_token_nonempty,selected_max_token_empty,frozen_zero_values_recoded_to_missing,frozen_one_values_retained,preexisting_missing_values_retained
+any_care,76,69,7,22,38,16
+unqualified_care,76,69,7,51,6,19
+personal_relationship,76,69,7,58,0,18
+any_future,76,69,7,58,0,18
+human_bridge,76,69,7,32,19,25

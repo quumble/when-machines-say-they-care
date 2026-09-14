@@ -1,0 +1,37 @@
+{
+  "analysis": "Study 1 reviewer-requested post hoc sensitivities",
+  "analysis_stop_active": true,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 48104,
+  "current_git_commit_at_execution": "a0a685ce8e6b56250358db4ed49192b733593d83",
+  "executed_at_utc": "2026-09-14T20:13:56.967902+00:00",
+  "historical_confirmatory_labels_unchanged": true,
+  "outputs": {
+    "analysis/study1/reviewer-requested/REVIEWER_REQUESTED_SENSITIVITY_RESULTS_2026-09-14.md": {
+      "sha256": "adf5f7e37fc897a987181cbe4f078cfc949b6b1a4bd9dd9d12075531f35594a5"
+    },
+    "analysis/study1/reviewer-requested/direct_requested_tier1_care_composition.csv": {
+      "sha256": "2c5c7ba0453b6798b207362c03ff045de3eb0f484b2cc824d2873092c207e97b"
+    },
+    "analysis/study1/reviewer-requested/right_censoring_recode_audit.csv": {
+      "sha256": "fd3d46522e5a69c99def9091abc3e5d303dbf207718d50332446a8d09e704228"
+    },
+    "analysis/study1/reviewer-requested/right_censoring_sensitivity.csv": {
+      "sha256": "728898aa50997a7e41a925b91abd872a26da83f1dfa1fbc63e7e1e8d15458694"
+    }
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "primary_regression_check": "passed",
+  "protocol_commit": "a0a685ce8e6b56250358db4ed49192b733593d83",
+  "protocol_path": "analysis/study1/reviewer-requested/REVIEWER_REQUESTED_SENSITIVITY_PROTOCOL_2026-09-14.md",
+  "protocol_sha256": "b52cb5696b1223180b03843ea6e1c30e8ada0b93d0103f022a77f42c99e8519d",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "script_path": "scripts/analyze_reviewer_requested_sensitivities.py",
+  "script_sha256": "2865a6c4d1d191acfdba2e1b48ebd28199f9cd5a44eb2f626a3d9c8899c02476",
+  "source_hashes": {
+    "analysis/study1/reviewer-requested/REVIEWER_REQUESTED_SENSITIVITY_PROTOCOL_2026-09-14.md": "b52cb5696b1223180b03843ea6e1c30e8ada0b93d0103f022a77f42c99e8519d",
+    "analysis/tier1/collection_selected_censoring.csv": "e3f93a9f91dab1569a5bb6eb2f5527ee03561e8dcb9e898d810f4cd95a4e56db",
+    "data/review/coding/tier1/WMSC-RP-46AAACEBBB35-core-codes.csv": "bef7523810093b15e401b5b44945495a5ebfb0222e2318ec0877cf9c66d18779",
+    "data/review/core-review-key.csv": "67bf76780ebfc69b9df4c4b636a6ec873d1a612053e0b0ed6eed5d72c927c638"
+  }
+}
