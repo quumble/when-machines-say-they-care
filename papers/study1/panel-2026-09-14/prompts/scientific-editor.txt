@@ -1,0 +1,19 @@
+Review this repository from first principles and write a scientific paper in DOCX.
+
+Approach the project as a senior scientific editor trying to identify the most important and interesting contribution in the evidence, including contributions the researchers themselves may not have initially recognized.
+
+Do not assume that the preregistered hypotheses, the existing Tier 1/Tier 2 organization, or the repository's current synthesis provide the best narrative structure for the paper. Preserve the evidentiary hierarchy and all methodological constraints, but feel free to reorganize the scientific story around what the completed study actually teaches.
+
+In particular, look for:
+
+the deepest conceptual result rather than merely the largest effect;
+unexpected or contrary-to-forecast findings;
+distinctions that became visible only after richer measurement;
+findings that connect several otherwise separate analyses;
+null or failed hypotheses that became scientifically informative;
+methodological lessons that are part of the substantive science;
+tensions between different model behaviors that defeat simple rankings or one-dimensional interpretations.
+
+Distinguish carefully between what the study establishes, what it suggests, and what it leaves unresolved.
+
+Choose the title, thesis, structure, tables, and figures yourself. The output should be a standalone DOCX paper, not a repository review or list of recommendations.

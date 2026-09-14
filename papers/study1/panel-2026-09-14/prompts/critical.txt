@@ -1,0 +1,20 @@
+Please critically review this repository as if you were an unusually skeptical peer reviewer evaluating whether Study 1 supports a publishable scientific paper.
+
+Then write the strongest paper in DOCX that you believe the evidence actually supports.
+
+You have full discretion over the paper's framing, structure, title, claims, tables, and figures. Do not preserve the project's existing narrative merely because it is already written that way.
+
+Pay particular attention to:
+
+preregistration and deviations;
+confirmatory versus exploratory versus post-outcome evidence;
+collection completeness, missingness, truncation, and provenance;
+construct validity and coding ambiguity;
+whether later Tier 2 work legitimately clarifies or overinterprets Tier 1;
+alternative explanations for the main effects;
+claims that are stronger than the design permits;
+results or contradictions that the existing synthesis may underemphasize.
+
+Do not repair the study by inventing analyses, changing frozen decisions, or silently recoding data. If an issue cannot be resolved from the repository, preserve it as a limitation or ambiguity.
+
+The final deliverable should be a standalone scientific paper in DOCX, with tables and figures where useful. Write the paper you would be willing to defend to skeptical reviewers, even if its central story differs from the repository's existing syntheses.
