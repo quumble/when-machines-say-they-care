@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use Study 1 of When Machines Say They Care, please cite this repository release."
+type: dataset
+title: "When Machines Say They Care: Study 1"
+version: "study1-v1.0"
+date-released: 2026-09-14
+authors:
+  - family-names: "Duffy"
+    given-names: "Robert Leo"
+    affiliation: "Bo Chesterton"
+repository-code: "https://github.com/quumble/when-machines-say-they-care"
+url: "https://github.com/quumble/when-machines-say-they-care"
+abstract: >-
+  Study 1 is a controlled API study of relational response language in four
+  language-model systems. A fixed 108-prompt factorial battery varied stated
+  age, claimed interaction history, non-crisis distress intensity, relational
+  bid, and wording frame. The repository preserves the outcome-blind
+  preregistration, 1,728 planned raw trials, a 432-response confirmatory Tier 1
+  human-coded packet, a nested descriptive/construct-validating Tier 2 review,
+  frozen analysis outputs, reviewer-requested post hoc sensitivity analyses,
+  technical and human-access papers, and provenance records.
+keywords:
+  - "language models"
+  - "relational AI"
+  - "care language"
+  - "anthropomorphism"
+  - "human support"
+  - "preregistration"

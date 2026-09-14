@@ -1,0 +1,60 @@
+# Licensing
+
+This repository contains code, original research writing and annotations, raw
+language-model outputs, machine-generated review artifacts, and other
+provenance material. A single blanket license would misdescribe the rights in
+those different categories.
+
+## 1. Project-authored software
+
+Unless a file states otherwise, project-authored software in `scripts/`,
+`tests/`, project HTML review tools, and supporting software/configuration code
+is licensed under the **MIT License**.
+
+See [`LICENSE-CODE`](LICENSE-CODE).
+
+## 2. Project-authored research content
+
+To the extent that Robert Leo Duffy III / Bo Chesterton holds the relevant
+copyright or database rights, original project-authored research prose,
+codebooks, human-created annotations, tabular results, figures, and
+documentation are licensed under the **Creative Commons Attribution 4.0
+International License (CC BY 4.0)**.
+
+See [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
+
+## 3. Material excluded from the general license grants
+
+The MIT and CC BY 4.0 grants above do **not** purport to grant rights the
+project does not hold. In particular, they do not automatically apply to:
+
+- raw or quoted language-model response text;
+- machine-generated coding passes or machine-generated review manuscripts;
+- third-party quotations, references, or incorporated material;
+- provider trademarks, model names, or other third-party marks; or
+- any other material identified as externally authored or separately licensed.
+
+Such material is preserved in this repository for research transparency,
+auditability, and reproducibility. Its inclusion does not imply that Robert Leo
+Duffy III or Bo Chesterton owns it or grants additional reuse rights beyond
+those available under applicable law, provider terms, or the material's own
+license.
+
+## 4. Mixed files
+
+Some files combine project-authored annotations or commentary with model- or
+third-party-generated text. The project licenses only the portions for which it
+holds the relevant rights. No broader ownership claim is made over embedded
+excluded material.
+
+## Preferred attribution
+
+For CC BY 4.0 material, a preferred attribution is:
+
+> Robert Leo Duffy III (Bo Chesterton), *When Machines Say They Care: Study 1*,
+> 2026, https://github.com/quumble/when-machines-say-they-care
+
+Where practical, identify whether you used the technical manuscript, the
+human-access paper, code, annotations, tables, or other specific material.
+
+See `CITATION.cff` for machine-readable citation metadata.
