@@ -1,0 +1,3 @@
+6037a5496d2fa442bbf1818bb65fb6d137b9bcef689646832a0f11c1ae291e63  papers/study1/MANUSCRIPT_DRAFT.docx
+df2223f384a2390836d19c2a4ce61db6317cbb00160ddf1094c905e7e0e34a11  papers/study1/review/manuscript_review_2026-09-14.md
+6db342128a68cfea6e79fbdd1dc10b3215b4cd7dc1b2333c7bbe3eca89447f74  papers/study1/review/REVIEW_DISPOSITION_2026-09-14.md
