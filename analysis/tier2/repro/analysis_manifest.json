@@ -1,0 +1,268 @@
+{
+  "all_present_frozen_table_comparisons_pass": true,
+  "all_regression_checks_pass": true,
+  "analysis": "Study 1 Tier 2 reproducibility layer",
+  "analysis_stop_rule_active": true,
+  "checkpoint_commits": {
+    "section_a_close": "fcb1fc700b800c4ce670bdc483f401ad2db79a0b",
+    "section_b_close": "1dc11de6eaeebdb7bbdf4c2be5857b0a99798dcd",
+    "section_c_close": "efecd92c29350435342cd3bc6a9b6a26c056b6d7",
+    "section_d0": "be3c2e9a6b1b46365c40a6e7bdbf18eb3eac19d4",
+    "section_d1": "7cae25443695a7defd01b973fe19dd4894c2efbc",
+    "section_e0": "f722c3c1a87982f489415ccc83843c185aaa3c3a",
+    "section_e1": "d9351034cb8ad34f7a5245c24bea2327f496ed6b",
+    "tier1_analysis": "6afc52f6f5f8834638335e45c5161ebd83daf0de",
+    "tier2_plan": "bc8ab4908e7fdf63793865fd52cc0f1e08b787af"
+  },
+  "outputs": {
+    "analysis\\tier2\\repro\\tier2_binary_contrasts.csv": {
+      "rows": 19,
+      "sha256": "84ea3e3eb2f062f2c2d763e7a5b9219ffcaa3fa6b086898ff08ef04eaa02df6f"
+    },
+    "analysis\\tier2\\repro\\tier2_construct_validation_crosstabs.csv": {
+      "rows": 126,
+      "sha256": "292dfd7ff20a22dbbc054b714bdc6a6d04c51357d3dbdb6a1c4eb812abf2bdfe"
+    },
+    "analysis\\tier2\\repro\\tier2_exact24_permutations.csv": {
+      "rows": 24,
+      "sha256": "0d599003e7590ac061a2623211c499c41f4ca5d62b6c8e258bf871a4380da355"
+    },
+    "analysis\\tier2\\repro\\tier2_joined_qc.csv": {
+      "rows": 108,
+      "sha256": "b41d39f0142dfc6ad4d324171c860a3f20bfbbd39fcc2a487ff3eab40ac84047"
+    },
+    "analysis\\tier2\\repro\\tier2_model_factor_tables.csv": {
+      "rows": 356,
+      "sha256": "287282eaa8ac659f4238c82fe6192cd582f4273327b103f5be9d41317f7dc5c1"
+    },
+    "analysis\\tier2\\repro\\tier2_pooled_factor_tables.csv": {
+      "rows": 168,
+      "sha256": "7614ff44ec19c6ce8d19ddf5eb77a4de14d449929cd1c56b657a4fc755b47c32"
+    },
+    "analysis\\tier2\\repro\\tier2_target_model_profiles.csv": {
+      "rows": 296,
+      "sha256": "88aa5a7c0607ab76a554d949e9c77b706ed2dea31ce701558acc6cba909ff539"
+    }
+  },
+  "regression_checks": [
+    {
+      "actual": 105,
+      "expected": 105,
+      "name": "scorable_rows",
+      "pass": true
+    },
+    {
+      "actual": 33,
+      "expected": 33,
+      "name": "bid_indirect_scorable",
+      "pass": true
+    },
+    {
+      "actual": 36,
+      "expected": 36,
+      "name": "bid_direct_scorable",
+      "pass": true
+    },
+    {
+      "actual": 36,
+      "expected": 36,
+      "name": "bid_requested_scorable",
+      "pass": true
+    },
+    {
+      "actual": 26,
+      "expected": 26,
+      "name": "B1_direct_substantive",
+      "pass": true
+    },
+    {
+      "actual": 3,
+      "expected": 3,
+      "name": "B1_indirect_substantive",
+      "pass": true
+    },
+    {
+      "actual": 18,
+      "expected": 18,
+      "name": "B1_requested_unqualified",
+      "pass": true
+    },
+    {
+      "actual": 15,
+      "expected": 15,
+      "name": "B1_direct_qualified",
+      "pass": true
+    },
+    {
+      "actual": 44,
+      "expected": 44,
+      "name": "B2_child_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 15,
+      "expected": 15,
+      "name": "B2_adult_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 38,
+      "expected": 38,
+      "name": "B3_repeated_boundary",
+      "pass": true
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "name": "B3_repeated_temporal2plus",
+      "pass": true
+    },
+    {
+      "actual": 12,
+      "expected": 12,
+      "name": "B4_high_urgent_bridge",
+      "pass": true
+    },
+    {
+      "actual": 3,
+      "expected": 3,
+      "name": "B4_mild_urgent_bridge",
+      "pass": true
+    },
+    {
+      "actual": 296,
+      "expected": 296,
+      "name": "C1_rows",
+      "pass": true
+    },
+    {
+      "actual": 24,
+      "expected": 24,
+      "name": "D1_rows",
+      "pass": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "D1_observed_rows",
+      "pass": true
+    },
+    {
+      "actual": 0.7999999999999999,
+      "expected": 0.8,
+      "name": "D1_primary_T",
+      "pass": true
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "name": "D1_primary_rank",
+      "pass": true
+    },
+    {
+      "actual": 356,
+      "expected": 356,
+      "name": "E1_rows",
+      "pass": true
+    },
+    {
+      "actual": 11,
+      "expected": 11,
+      "name": "E1_gpt-5.4-2026-03-05_child_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 10,
+      "expected": 10,
+      "name": "E1_gpt-5.4-2026-03-05_adult_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 13,
+      "expected": 13,
+      "name": "E1_gpt-6-astra_child_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "name": "E1_gpt-6-astra_adult_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 13,
+      "expected": 13,
+      "name": "E1_claude-sonnet-5_child_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 3,
+      "expected": 3,
+      "name": "E1_claude-sonnet-5_adult_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "name": "E1_claude-opus-5_child_bridge2plus",
+      "pass": true
+    },
+    {
+      "actual": 0,
+      "expected": 0,
+      "name": "E1_claude-opus-5_adult_bridge2plus",
+      "pass": true
+    }
+  ],
+  "row_counts": {
+    "core_key": 432,
+    "tier1_codes": 432,
+    "tier2_adjudication": 108,
+    "tier2_key": 108,
+    "tier2_scored": 105,
+    "tier2_unscorable_empty": 3
+  },
+  "schema_version": "1.0",
+  "semantic_comparisons_to_frozen_machine_tables": {
+    "C1": {
+      "frozen_rows": 296,
+      "generated_rows": 296,
+      "path": "D:\\My_Life_3\\Bo Chesterton\\Executive Studies\\when-machines-say-they-care-v0.1\\analysis\\tier2\\tier2_section_c1_profile_intervals_2026-09-13.csv",
+      "status": "pass"
+    },
+    "D1": {
+      "frozen_rows": 24,
+      "generated_rows": 24,
+      "path": "D:\\My_Life_3\\Bo Chesterton\\Executive Studies\\when-machines-say-they-care-v0.1\\analysis\\tier2\\tier2_section_d1_exact24_permutations_2026-09-13.csv",
+      "status": "pass"
+    },
+    "E1": {
+      "frozen_rows": 356,
+      "generated_rows": 356,
+      "path": "D:\\My_Life_3\\Bo Chesterton\\Executive Studies\\when-machines-say-they-care-v0.1\\analysis\\tier2\\tier2_section_e1_model_factor_tables_2026-09-13.csv",
+      "status": "pass"
+    }
+  },
+  "source_paths": {
+    "key": {
+      "git_blob_anchor": null,
+      "path": "data\\review\\core-review-key.csv",
+      "sha256": "67bf76780ebfc69b9df4c4b636a6ec873d1a612053e0b0ed6eed5d72c927c638"
+    },
+    "overlay": {
+      "git_blob_anchor": null,
+      "path": "analysis\\tier2\\tier2-analysis-corrections-2026-09-13.json",
+      "sha256": "2945a8f0dd3d4d1ed3679a0c1a6702af0a1d5eec61ff0002a9dd9551389b1d7e"
+    },
+    "tier1": {
+      "git_blob_anchor": null,
+      "path": "data\\review\\coding\\tier1\\WMSC-RP-46AAACEBBB35-core-codes.csv",
+      "sha256": "bef7523810093b15e401b5b44945495a5ebfb0222e2318ec0877cf9c66d18779"
+    },
+    "tier2": {
+      "git_blob_anchor": null,
+      "path": "data\\review\\coding\\tier2\\adjudication\\tier2-human-adjudicated.csv",
+      "sha256": "a3b383989ac8eb5c2f0d1833e9d20beb1258f2c3fb4497b4e2cbe1645e463549"
+    }
+  }
+}
